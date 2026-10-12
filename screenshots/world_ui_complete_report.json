@@ -1,0 +1,89 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "PASS",
+    "duration_ms": 4282,
+    "frames_completed": 200,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 5,
+            "component_count": 11,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 904.302978515625
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.642000198364259
+        },
+        {
+            "frame": 100,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 624253302,
+            "frame_time_ms": 16.617000579833986
+        },
+        {
+            "frame": 200,
+            "phase": "run",
+            "nodes": 5,
+            "components": 11,
+            "hash": 448530353,
+            "frame_time_ms": 16.61199951171875
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 58.10100173950195,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 3,
+        "CollisionBox2D": 2,
+        "CollisionCircle2D": 2
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 21,
+        "passed": 21,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

@@ -1,0 +1,1080 @@
+[2026-10-11 20_10_25_998][0] INFO: DownloadManager initialized
+[2026-10-11 20_10_25_999][0] INFO: a couple of Subsystems registered finish.
+[2026-10-11 20_10_25_999][0] INFO: Engine construct finish.
+[2026-10-11 20_10_26_013][0] WARNING: -graphicsheadless ignored: -graphicssurfaceless takes precedence (real GLES rendering vs Noop); the two are mutually exclusive.
+[2026-10-11 20_10_26_292][0] WARNING: Graphics::SetMode called with zero dimensions: 0x0 (will maximize window)
+/workspace/engine/Source/ThirdParty/bgfx-all/bgfx/src/renderer_gl.cpp (2474): LOG Support Color buffer fetch.
+[2026-10-11 20_10_26_764][0] WARNING: Directory[/workspace/.cli/AgentProject] not exists.
+[2026-10-11 20_10_26_932][3] WARNING: RuntimeRetargeterCache: Cannot load mapping table: uuid://F4ItQUiV0gmvAelLXpk5yrTs
+[2026-10-11 20_10_26_933][3][Script] IsNetworkMode:    false
+[2026-10-11 20_10_26_942][3][Script] [InputAdaptor] Loading input event adaptor...
+[2026-10-11 20_10_26_942][3][Script] [InputAdaptor] Hooked SubscribeToEvent for event mapping.
+[2026-10-11 20_10_26_942][3][Script] [InputAdaptor] Platform: Linux, isTouchPlatform: false
+[2026-10-11 20_10_26_942][3][Script] [InputAdaptor] Hooked Input methods for touch emulation fallback.
+[2026-10-11 20_10_26_943][3][Script] Check Transition.lua SimpleGrid.lua
+[2026-10-11 20_10_27_151][3] WARNING: Forcing left alignment because parent element has horizontal layout
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_electric.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_ice.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_ice_hit.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_lightning.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_water.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/enemy_hit.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_anglerfish.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_archerfish.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_barnacle.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_eel.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_flyfish.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_frog.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_ray.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_swordfish.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_attack.png', skipping
+[2026-10-11 20_10_27_152][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_down.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_hurt.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_idle.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_move.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_to_liquid.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_turn.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_up.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_anglerfish.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_anglerfish_off.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_flyfish.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_idle.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_jump.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_move.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_scald.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_to_gas.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_to_solid.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_turn.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_2.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_3.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_4.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_electric.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_idle.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_jump.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_move.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_scald.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_to_gas.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_to_liquid.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_turn.png', skipping
+[2026-10-11 20_10_27_153][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_27_760][3][Script] [Art] 运行图集加载完成: 44
+[2026-10-11 20_10_27_772][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_walls.png', skipping
+[2026-10-11 20_10_27_772][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_27_830][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_walls.png，1536×1024
+[2026-10-11 20_10_27_830][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_platforms.png', skipping
+[2026-10-11 20_10_27_830][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_27_837][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_platforms.png，1280×256
+[2026-10-11 20_10_27_837][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_pipes.png', skipping
+[2026-10-11 20_10_27_837][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_27_864][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_pipes.png，1024×1024
+[2026-10-11 20_10_27_864][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_panels.png', skipping
+[2026-10-11 20_10_27_864][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_27_880][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_panels.png，768×512
+[2026-10-11 20_10_27_880][3][Script] [瓦片集] 初始化完成；真实图片未上传时可使用基础测试瓦片
+[2026-10-11 20_10_27_971][3][Script] [地图背景] 首载真实整图：image/地图/backgrounds/industrial_backdrop.jpg，4096×1339（原图 6443×2106）
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/absorb.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/bullet_hit.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/click.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/enemy_hit.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/game.ogg', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/landing.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/lightning.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/menu.ogg', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/robot_laser.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/shoot.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/slash.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/spring.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/water_shot.wav', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/sfx/crate_break.mp3', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: cannot resolve 'audio/sfx/dash.mp3', skipping
+[2026-10-11 20_10_27_979][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_10_28_014][3][Script] [Audio] 9 份上传音频已就绪
+[2026-10-11 20_10_28_014][3][Script] [Audio] BGM: menu
+[2026-10-11 20_10_28_015][3][Script] [VirtualControls] Initialized: design=1920x1080, screen=2040x1080, scale=1.000, offset=(60,0), mobile=false
+[2026-10-11 20_10_28_015][3][Script] [GameHUD] Initialized
+[2026-10-11 20_10_28_021][3][Script] === 《涌泉》启动完成 ===
+[2026-10-11 20_10_28_167][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_179][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT2 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_268][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_279][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT4 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_362][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_374][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT8 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_460][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_470][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT16 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_557][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_568][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT32 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_658][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_668][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE32 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_754][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_764][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE16 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_860][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_871][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE8 TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_28_960][3] ERROR: WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+[2026-10-11 20_10_28_971][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE2 GAMMA_IN_SHADERING TONEMAP_LUT):
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+
+Code:
+---
+    712: const float LinearGrey = 0.18;
+    713: const float ExposureGrey = 444.0 / 1023.0;
+    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;
+    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));
+    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);
+    717: float invLutSize = 1.0 / lutSize;
+    718: float halfTexel = 0.5 * invLutSize;
+    719: float scale = 1.0 - invLutSize;
+    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);
+    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;
+
+>>> 722: }
+>>>   0: ^
+
+    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)
+    724: {
+    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)
+    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)
+    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)
+    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);
+    729: }
+    730: void main()
+    731: {
+---
+WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+WARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'
+ERROR: 0:721: 'texture3DLod' : no matching overloaded function found 
+ERROR: 0:721: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+
+Failed to build shader.
+[2026-10-11 20_10_29_334][13][Script] [Tilemap] 解析 world：12 行 × 30 列，合并碰撞 1 块，机关 0，敌人 0，物品 0
+[2026-10-11 20_10_29_335][13][Script] [Level] 加载完成: 涌泉 · 无缝大地图 (world)
+[2026-10-11 20_10_29_335][13][Script] [Player] 创建于    15    5
+[2026-10-11 20_10_29_337][13][Script] [Audio] BGM: game
+[2026-10-11 20_10_29_337][13][Script] [Main] 进入关卡: 涌泉 · 无缝大地图 (id=world, 平台数=1)
+[2026-10-11 20_10_29_338][13][Script] [MapEditor] 已载入地图 world：30 × 12，保留分层与玩法元数据
+[2026-10-11 20_10_29_383][13][Script] [地图编辑界面] 打开 world（宽屏停靠布局）
+[2026-10-11 20_10_29_383][13][Script] [地图编辑器] 编辑同一世界，游戏 HUD 与虚拟控制已隔离
+[2026-10-11 20_10_29_391][13][Script] [地图背景] 首载真实整图：image/地图/backgrounds/industrial_backdrop.jpg，4096×1339（原图 6443×2106）
+[2026-10-11 20_10_30_436][38][Script] [地图背景] 已放置 background_1：30米宽
+[2026-10-11 20_10_30_436][38][Script] [地图编辑界面] 背景已放置；拖四角等比缩放，拖内部移动
+[2026-10-11 20_10_30_437][38][Script] [Layout Warning] Overflow in 'SimpleGrid': children=249x32, container=244x69. Consider: flexShrink=1 on children, or increase container size.
+[2026-10-11 20_10_30_437][38][Script] [Layout Warning] Overflow in 'SimpleGrid': children=249x59, container=244x123. Consider: flexShrink=1 on children, or increase container size.
+[2026-10-11 20_10_32_071][48][Script] [地图背景] 已放置 background_2：30米宽
+[2026-10-11 20_10_32_071][48][Script] [地图编辑界面] 背景已放置；拖四角等比缩放，拖内部移动
+[2026-10-11 20_10_32_638][73][Script] [地图编辑界面] 背景已等比缩放，保持中心不变
+[2026-10-11 20_10_32_638][73][Script] [地图编辑界面] 背景已等比缩放，保持中心不变
+[2026-10-11 20_10_32_640][73][Script] [MapEditor] 已载入地图 world：30 × 12，保留分层与玩法元数据
+[2026-10-11 20_10_32_641][73][Script] [Tilemap] 解析 world：12 行 × 30 列，合并碰撞 1 块，机关 0，敌人 0，物品 0
+[2026-10-11 20_10_32_641][73][Script] [地图背景] 载入失败，原地图未修改：backgroundImages[1].assetId 不在背景资源目录中
+[2026-10-11 20_10_32_642][73][Script] [地图背景] 载入失败，原地图未修改：backgroundImages 必须是普通数组
+[2026-10-11 20_10_32_642][73][Script] [地图背景] 已放置 background_2：30米宽
+[2026-10-11 20_10_43_310][143][Script] [编辑试玩] 开始独立进度；从指定初始出生点测试完整玩法
+[2026-10-11 20_10_43_311][143][Script] [Tilemap] 解析 world：12 行 × 30 列，合并碰撞 1 块，机关 0，敌人 0，物品 0
+[2026-10-11 20_10_43_311][143][Script] [Level] 加载完成: 涌泉 · 无缝大地图 (world)
+[2026-10-11 20_10_43_311][143][Script] [Player] 创建于    15    5
+[2026-10-11 20_10_43_312][143][Script] [Main] 进入关卡: 涌泉 · 无缝大地图 (id=world, 平台数=1)
+[2026-10-11 20_10_46_718][193][Script] [编辑试玩] 已恢复正式游戏进度
+[2026-10-11 20_10_47_253][203]INFO__VALIDATE_TEST__:PASSED|43:43:0
+[2026-10-11 20_10_47_253][203]INFO__VALIDATE_UPDATE__:false

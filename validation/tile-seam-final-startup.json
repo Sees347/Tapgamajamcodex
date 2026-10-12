@@ -1,0 +1,86 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "PASS",
+    "duration_ms": 7281,
+    "frames_completed": 90,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 2,
+            "component_count": 4,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 5363.966796875
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 21.979999542236329
+        },
+        {
+            "frame": 45,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 27.260000228881837
+        },
+        {
+            "frame": 90,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 21.999000549316408
+        }
+    ],
+    "scene_stalled": true,
+    "max_frame_time_ms": 34.81999969482422,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1
+    },
+    "test_result": "NOT_RUN",
+    "test_assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

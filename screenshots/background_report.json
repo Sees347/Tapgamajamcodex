@@ -1,0 +1,116 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 5661,
+    "frames_completed": 200,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 19_53_27_173][13] ERROR: Execute Lua string failed: [string \"ui/background_palette\"]:314: attempt to call a nil value (method 'SetPlaceholder')",
+                    "frame": 10
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 19_53_28_169][73] ERROR: Execute Lua string failed: [string \"tests/background_validation\"]:79: attempt to index a nil value",
+                    "frame": 70
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 19_53_29_465][143] ERROR: Execute Lua string failed: [string \"tests/background_validation\"]:144: attempt to index a nil value (local 'image')",
+                    "frame": 140
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 4,
+            "component_count": 9,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1908.2020263671876
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.621999740600587
+        },
+        {
+            "frame": 100,
+            "phase": "run",
+            "nodes": 4,
+            "components": 9,
+            "hash": 3933007484,
+            "frame_time_ms": 16.61199951171875
+        },
+        {
+            "frame": 200,
+            "phase": "run",
+            "nodes": 4,
+            "components": 9,
+            "hash": 2790698482,
+            "frame_time_ms": 24.95800018310547
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 55.29100036621094,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 2,
+        "CollisionBox2D": 1,
+        "CollisionCircle2D": 2
+    },
+    "test_result": "FAILED",
+    "test_assertions": {
+        "total": 14,
+        "passed": 4,
+        "failed": 10
+    },
+    "test_issues": [
+        "UI绘图上下文加载并核实真实背景资源",
+        "背景页显示可拖放真实缩略图",
+        "画布内松开真正放置背景",
+        "背景是独立实例而非瓦片或碰撞",
+        "放置后高度由原图比例精确推导",
+        "属性等比宽度可修改",
+        "属性位置可修改",
+        "背景操作按钮存在：放大 20%",
+        "背景操作按钮存在：退出并测试",
+        "编辑背景保存后退出试玩保留实例"
+    ],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 3,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 3
+    }
+}

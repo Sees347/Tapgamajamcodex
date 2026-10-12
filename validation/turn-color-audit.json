@@ -1,0 +1,202 @@
+{
+  "source_preserved": true,
+  "forms": {
+    "liquid": {
+      "source": "assets/image/PlayerAnim/exec-165efc73-b14b-448c-a8ef-63f5bdb5a229.png",
+      "source_sha256": "e59f43c9d618457eed74af0eb009a1962b5be7783ba226cd8804cdd5bbe8266c",
+      "contour_coverage_preserved_before_resizing": true,
+      "opacity_adjusted": true,
+      "source_frames": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frame_count": 5,
+      "reference": [
+        "image/runtime/liquid_idle.png",
+        "image/runtime/liquid_move.png"
+      ],
+      "before": {
+        "lab_mean": [
+          85.863,
+          -2.547,
+          -16.14
+        ],
+        "lab_median": [
+          89.271,
+          -3.474,
+          -13.813
+        ]
+      },
+      "reference_colors": {
+        "lab_mean": [
+          87.256,
+          -2.471,
+          -14.394
+        ],
+        "lab_median": [
+          89.386,
+          -2.821,
+          -13.11
+        ]
+      },
+      "after": {
+        "lab_mean": [
+          87.354,
+          -2.579,
+          -14.592
+        ],
+        "lab_median": [
+          90.735,
+          -3.518,
+          -12.112
+        ]
+      },
+      "mean_color_delta_e_before": 1.356,
+      "mean_color_delta_e_after": 0.177,
+      "sheet": "image/runtime/liquid_turn.png",
+      "sheet_size": [
+        1024,
+        512
+      ],
+      "pivot": [
+        126,
+        126
+      ],
+      "source_height": 161.25
+    },
+    "solid": {
+      "source": "assets/image/PlayerAnim/exec-c014650d-15e4-407c-95f2-4f60193a2e3d.png",
+      "source_sha256": "19a78111b793a3b1209a6781fac86429ffe8586ec72a7a26bd93f134ee914069",
+      "contour_coverage_preserved_before_resizing": true,
+      "opacity_adjusted": true,
+      "source_frames": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "frame_count": 4,
+      "reference": [
+        "image/runtime/solid_idle.png",
+        "image/runtime/solid_move.png"
+      ],
+      "before": {
+        "lab_mean": [
+          81.309,
+          -0.435,
+          -22.833
+        ],
+        "lab_median": [
+          85.668,
+          -2.716,
+          -15.71
+        ]
+      },
+      "reference_colors": {
+        "lab_mean": [
+          81.715,
+          -2.3,
+          -22.485
+        ],
+        "lab_median": [
+          82.025,
+          -3.073,
+          -20.605
+        ]
+      },
+      "after": {
+        "lab_mean": [
+          81.721,
+          -2.011,
+          -22.438
+        ],
+        "lab_median": [
+          86.024,
+          -4.474,
+          -15.2
+        ]
+      },
+      "mean_color_delta_e_before": 1.741,
+      "mean_color_delta_e_after": 0.282,
+      "sheet": "image/runtime/solid_turn.png",
+      "sheet_size": [
+        1024,
+        256
+      ],
+      "pivot": [
+        126,
+        126
+      ],
+      "source_height": 193.0
+    },
+    "gas": {
+      "source": "assets/image/PlayerAnim/exec-558eda89-528c-4c43-9fee-7ecf855b783b.png",
+      "source_sha256": "b52d21d6e3a11a3a16c555721373ad51fa0f034db408729f38d36fcb9577b109",
+      "contour_coverage_preserved_before_resizing": true,
+      "opacity_adjusted": false,
+      "source_frames": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "frame_count": 5,
+      "reference": [
+        "image/runtime/gas_idle.png",
+        "image/runtime/gas_move.png"
+      ],
+      "before": {
+        "lab_mean": [
+          80.442,
+          -4.835,
+          -6.272
+        ],
+        "lab_median": [
+          93.656,
+          -4.682,
+          -2.281
+        ]
+      },
+      "reference_colors": {
+        "lab_mean": [
+          94.817,
+          -5.518,
+          -6.645
+        ],
+        "lab_median": [
+          98.154,
+          -5.204,
+          -2.857
+        ]
+      },
+      "after": {
+        "lab_mean": [
+          85.568,
+          -6.571,
+          -5.265
+        ],
+        "lab_median": [
+          98.07,
+          -5.067,
+          -1.901
+        ]
+      },
+      "mean_color_delta_e_before": 9.243,
+      "mean_color_delta_e_after": 6.03,
+      "sheet": "image/runtime/gas_turn.png",
+      "sheet_size": [
+        1024,
+        512
+      ],
+      "pivot": [
+        126,
+        126
+      ],
+      "source_height": 209.0
+    }
+  }
+}

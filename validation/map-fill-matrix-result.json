@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "viewH": 8,
+      "offset": 0,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.25,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.25,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.5,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.5,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.75,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 8,
+      "offset": 0.75,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.25,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.25,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.5,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.5,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.75,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 16,
+      "offset": 0.75,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.25,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.25,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.5,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.5,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.75,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 26,
+      "offset": 0.75,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.25,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.25,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.5,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.5,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.75,
+      "subject": "边界格内外共边",
+      "sampled": 121,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 4,
+      "offset": 0.75,
+      "subject": "4格宏块共边",
+      "sampled": 1255,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0,
+      "subject": "边界格内外共边",
+      "sampled": 110,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0,
+      "subject": "4格宏块共边",
+      "sampled": 595,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.25,
+      "subject": "边界格内外共边",
+      "sampled": 110,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.25,
+      "subject": "4格宏块共边",
+      "sampled": 605,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.5,
+      "subject": "边界格内外共边",
+      "sampled": 110,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.5,
+      "subject": "4格宏块共边",
+      "sampled": 605,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.75,
+      "subject": "边界格内外共边",
+      "sampled": 110,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    },
+    {
+      "viewH": 80,
+      "offset": 0.75,
+      "subject": "4格宏块共边",
+      "sampled": 605,
+      "maxRGBDelta": 0,
+      "nonzero": 0,
+      "guard": true
+    }
+  ],
+  "combinations": 40,
+  "sampledPixels": 24866,
+  "maxRGBDelta": 0,
+  "nonzeroPixels": 0,
+  "allGuards": true
+}

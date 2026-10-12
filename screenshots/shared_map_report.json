@@ -1,0 +1,89 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "PASS",
+    "duration_ms": 2809,
+    "frames_completed": 85,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 217,
+            "component_count": 435,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1051.845947265625
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.607999801635743
+        },
+        {
+            "frame": 42,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2555304026,
+            "frame_time_ms": 16.615999221801759
+        },
+        {
+            "frame": 85,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2555304026,
+            "frame_time_ms": 16.61400032043457
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 209.51100158691407,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 215,
+        "CollisionBox2D": 207,
+        "CollisionCircle2D": 9
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

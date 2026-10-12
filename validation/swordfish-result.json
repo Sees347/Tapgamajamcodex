@@ -1,0 +1,592 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 2688,
+    "frames_completed": 110,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_116][13] ERROR: Execute Lua string failed: [string \"core/art\"]:147: attempt to concatenate a nil value (local 'newForm')",
+                    "frame": 10
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_117][13] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 10
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_132][14] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 11
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_149][15] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 12
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_166][16] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 13
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_182][17] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 14
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_199][18] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 15
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_215][19] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 16
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_232][20] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 17
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_249][21] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 18
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_265][22] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 19
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_282][23] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 20
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_298][24] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 21
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_315][25] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 22
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_332][26] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 23
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_348][27] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 24
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_365][28] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 25
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_382][29] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 26
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_398][30] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 27
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_415][31] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 28
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_431][32] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 29
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_448][33] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 30
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_465][34] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 31
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_481][35] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 32
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_498][36] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 33
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_515][37] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 34
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_531][38] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 35
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_548][39] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 36
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_564][40] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 37
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_581][41] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 38
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_598][42] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 39
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_614][43] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 40
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_631][44] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 41
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_647][45] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 42
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_664][46] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 43
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_681][47] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 44
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_697][48] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 45
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_714][49] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 46
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_731][50] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 47
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_747][51] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 48
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_764][52] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 49
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_780][53] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 50
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_797][54] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 51
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_814][55] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 52
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_830][56] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 53
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_847][57] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 54
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_863][58] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 55
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_880][59] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 56
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_897][60] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 57
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_913][61] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 58
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_930][62] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 59
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_947][63] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 60
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_963][64] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 61
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_980][65] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 62
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_51_996][66] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 63
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_013][67] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 64
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_030][68] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 65
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_046][69] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 66
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_063][70] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 67
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_079][71] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 68
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_096][72] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 69
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_113][73] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 70
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_129][74] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 71
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_146][75] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 72
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_163][76] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 73
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_179][77] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 74
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_196][78] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 75
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_212][79] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 76
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_229][80] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 77
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_246][81] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 78
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_262][82] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 79
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_279][83] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 80
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_295][84] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 81
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_312][85] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 82
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_329][86] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 83
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_345][87] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 84
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_362][88] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 85
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_379][89] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 86
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_395][90] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 87
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_412][91] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 88
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_428][92] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 89
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_445][93] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 90
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_462][94] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 91
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_478][95] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 92
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_495][96] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 93
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_511][97] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 94
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_528][98] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 95
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_545][99] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 96
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_561][100] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 97
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_578][101] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 98
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_595][102] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 99
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_611][103] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 100
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_628][104] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 101
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_644][105] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 102
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_661][106] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 103
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_678][107] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 104
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_694][108] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 105
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_711][109] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 106
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_727][110] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 107
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_744][111] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 108
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-10 20_07_52_761][112] ERROR: Execute Lua function failed: [string \"main\"]:862: attempt to index a nil value (field 'node')\nstack traceback:\n\t[string \"main\"]:862: in function 'HandleUpdate'",
+                    "frame": 109
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 2,
+            "component_count": 4,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 850.7570190429688
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.61199951171875
+        },
+        {
+            "frame": 55,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.613000869750978
+        },
+        {
+            "frame": 110,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.614999771118165
+        }
+    ],
+    "scene_stalled": true,
+    "max_frame_time_ms": 16.93000030517578,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 37,
+        "passed": 37,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 101,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 101
+    }
+}

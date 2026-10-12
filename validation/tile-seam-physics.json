@@ -1,0 +1,95 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 2974,
+    "frames_completed": 90,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "lua",
+                    "message": "[2026-10-12 16_36_00_424][23] ERROR: Execute Lua string failed: [string \"core/level\"]:153: table index is nil",
+                    "frame": 20
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 414,
+            "component_count": 829,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1282.2979736328126
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.611000061035158
+        },
+        {
+            "frame": 45,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 3242496911,
+            "frame_time_ms": 16.607999801635743
+        },
+        {
+            "frame": 90,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 3242496911,
+            "frame_time_ms": 16.604999542236329
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 204.697998046875,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 412,
+        "CollisionBox2D": 411,
+        "CollisionCircle2D": 2
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 1,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 1
+    }
+}

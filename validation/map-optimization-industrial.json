@@ -1,0 +1,89 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "PASS",
+    "duration_ms": 12472,
+    "frames_completed": 200,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 6,
+            "component_count": 13,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 5013.42919921875
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 18.53499984741211
+        },
+        {
+            "frame": 100,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2746523171,
+            "frame_time_ms": 40.819000244140628
+        },
+        {
+            "frame": 200,
+            "phase": "run",
+            "nodes": 6,
+            "components": 13,
+            "hash": 1247308004,
+            "frame_time_ms": 22.937999725341798
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 1156.0699462890626,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 4,
+        "CollisionBox2D": 3,
+        "CollisionCircle2D": 2
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 66,
+        "passed": 66,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

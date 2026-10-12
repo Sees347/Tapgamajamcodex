@@ -1,0 +1,97 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 4673,
+    "frames_completed": 220,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 20_01_34_258][13] ERROR: Execute Lua string failed: [string \"core/world_map\"]:67: world存档无法解析；请先备份修复，原文件未覆盖",
+                    "frame": 10
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 20_01_35_753][103] ERROR: Execute Lua string failed: [string \"tests/world_validation\"]:111: attempt to index a nil value (field 'node')",
+                    "frame": 100
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 2,
+            "component_count": 4,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1011.6829833984375
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.60700035095215
+        },
+        {
+            "frame": 110,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.611000061035158
+        },
+        {
+            "frame": 220,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.617000579833986
+        }
+    ],
+    "scene_stalled": true,
+    "max_frame_time_ms": 17.569000244140626,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1
+    },
+    "test_result": "PASSED",
+    "test_assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+    },
+    "test_issues": [],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 2,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 2
+    }
+}

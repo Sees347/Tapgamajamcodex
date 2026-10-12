@@ -1,0 +1,18 @@
+{
+  "source": "assets/image/地图/tiles/industrial_walls.png",
+  "source_sha256": "f907a003b20b96ebff5199379a5b8fff40a5c093ac7f53f5d7ed4d5703e4d043",
+  "source_tile_id": 10,
+  "crop_pixels": [
+    816,
+    320,
+    976,
+    480
+  ],
+  "alpha_range": [
+    255,
+    255
+  ],
+  "process": "BOX 160→40，BICUBIC 40→256，水平/垂直镜像成512；去烘入高频棋盘纹，不使用AI生成，不修改原图",
+  "output": "assets/image/地图/tiles/industrial_wall_fill.png",
+  "output_sha256": "070714a70f5743a373dabfbedb5e18869f8c622de137de5801f871c9b9be1d1a"
+}

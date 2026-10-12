@@ -1,0 +1,645 @@
+{
+  "backup": "backups/map-optimization-20261012T095449Z",
+  "backup_files_verified": 130,
+  "modified_by_this_task": [
+    {
+      "path": "scripts/core/editor_render.lua",
+      "before_sha256": "f0cc26be06bf77769218174a1cd06f49fd0c705523a2ce57e2e747ed87debe7d",
+      "after_sha256": "0c4cd46b93d3ff5f223ede5196b7246a7becd68cd115b3832e5ff98647abcb6d"
+    },
+    {
+      "path": "scripts/core/render.lua",
+      "before_sha256": "962f8d22654dc81a70c6374d212a8aa43b0de024ce0bf9582a4d96b9724fbdbe",
+      "after_sha256": "0836d8aaef8c7e8091a7a29f90aa9708fe1e98dc16e8380ff1baca20e2fc0f6d"
+    },
+    {
+      "path": "scripts/core/terrain_tiles.lua",
+      "before_sha256": "d220034a379f48f0142431180e6b8a04f64698da026c08bb1de66fa0f45e6182",
+      "after_sha256": "d9cecb6ddb22b8e9ece341444dcec657bb495c2b3afb62edd07b011989bc25bb"
+    },
+    {
+      "path": "scripts/core/tile_render.lua",
+      "before_sha256": "acedbbb0fe15f4a27573f54a462d3f8de6c05d8bb1b575ba5dcf926ed8e9498a",
+      "after_sha256": "6bd406cf8ff5b9ce14784777c5c3b862b653f8f5d2ee232daf8f5aa9f8022583"
+    },
+    {
+      "path": "scripts/core/tilemap.lua",
+      "before_sha256": "924317e558a8ab1a31436647fd5bf07bdaf4e7f1d2d78a7247bf6f5fa476478c",
+      "after_sha256": "be551405228a17311f9f714cbfa45925e6d2e7bbf3c2dc0d18708ccc32581081"
+    },
+    {
+      "path": "scripts/core/tilesets.lua",
+      "before_sha256": "fe085f9b319e1fb0784b4d60c541c0788bca53ee3f217a5a86f36aba5e0b235d",
+      "after_sha256": "b5671372395b0ea7052c071cb17f3a7a6ab8e812d97a87469455d559fcc3289e"
+    },
+    {
+      "path": "scripts/main.lua",
+      "before_sha256": "35e88b56b5a45ef4dff9a6f2d7b65684663379d17563b9e1dac0d1a5befae6a6",
+      "after_sha256": "a255ff245f8642ab1a83a042b66bd2dd8a38cd7098176f297f6dc60db23e87cb"
+    },
+    {
+      "path": "scripts/tests/industrial_tiles_validation.lua",
+      "before_sha256": "b578cdcfedb005329c60723a69da495eb26721f6fbb202a41af01bb47339a816",
+      "after_sha256": "c3f496e0356592e285a94cf7f13093c0f3d3406289534e5998eaad3e27f897f9"
+    }
+  ],
+  "added_by_this_task": [
+    {
+      "path": "scripts/core/camera_bounds.lua",
+      "sha256": "250fe9c89c3c7cb54354df2d3cb12485e347dd0280b2aa11e178e23f0e6f6ba2",
+      "meta_exists": true
+    },
+    {
+      "path": "scripts/core/grid_regions.lua",
+      "sha256": "99126e7fed68a3e758801f20c82e0a1a5e122c36407ae39dd8441def60ffbf16",
+      "meta_exists": true
+    },
+    {
+      "path": "scripts/tests/camera_bounds_pure.lua",
+      "sha256": "94937cf9f76153ba872c9848d175477966b5e655ad9f0b4a3427f312a7c65d17",
+      "meta_exists": true
+    },
+    {
+      "path": "scripts/tests/map_optimization_validation.lua",
+      "sha256": "6198e1662153a128b955d9c7a65999d96e6a4ba4e204e7ea1c3bef07bc42fb8a",
+      "meta_exists": true
+    },
+    {
+      "path": "scripts/tests/terrain_groups_validation.lua",
+      "sha256": "46a40ae2b0519b945d698f8b83b1a717c9fcd43f78a88d1427be9515bc586b14",
+      "meta_exists": true
+    },
+    {
+      "path": "assets/image/地图/tiles/industrial_wall_fill.png",
+      "sha256": "070714a70f5743a373dabfbedb5e18869f8c622de137de5801f871c9b9be1d1a",
+      "meta_exists": true
+    }
+  ],
+  "preserved": [
+    "shared world_src grid and layout SHA256 unchanged",
+    "original industrial_walls PNG SHA256 unchanged",
+    "all original resource UUIDs unchanged",
+    "settings.json restored byte-for-byte to snapshot"
+  ],
+  "concurrent_change_not_overwritten": "scripts/core/art.lua liquid_move pivot changed outside this task; preserved, not part of map rollback",
+  "metrics": {
+    "solid_cells": 9684,
+    "checked_cells": 60000,
+    "terrain_rects_before": 320,
+    "terrain_rects_after": 91,
+    "independent_crates": 91,
+    "global_interior_groups": 661,
+    "boundary_cells": 2221,
+    "visible_cells": 216,
+    "visible_fill_submissions": 105,
+    "extra_boundary_interior_fill": 1,
+    "note": "2882 geometry groups plus one boundary-interior fill if entire map visible; not a measured GPU drawcall or FPS claim"
+  },
+  "reports": {
+    "map-optimization-collision": {
+      "raw_result": "PASS",
+      "frames": 90,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+      },
+      "assertions": {
+        "total": 100,
+        "passed": 100,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-optimization-physics": {
+      "raw_result": "PASS",
+      "frames": 90,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+      },
+      "assertions": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-optimization-gameplay": {
+      "raw_result": "PASS",
+      "frames": 90,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+      },
+      "assertions": {
+        "total": 118,
+        "passed": 118,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-optimization-industrial": {
+      "raw_result": "PASS",
+      "frames": 200,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+      },
+      "assertions": {
+        "total": 66,
+        "passed": 66,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "terrain-groups-complete": {
+      "raw_result": "PASS",
+      "frames": 90,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+      },
+      "assertions": {
+        "total": 32,
+        "passed": 32,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-camera-verified": {
+      "raw_result": "FAIL",
+      "frames": 125,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      },
+      "assertions": {
+        "total": 33,
+        "passed": 33,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-optimization-visual-after": {
+      "raw_result": "FAIL",
+      "frames": 125,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 10,
+        "total_errors": 10
+      },
+      "assertions": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0
+      },
+      "issues": []
+    },
+    "map-fill-retry": {
+      "raw_result": "FAIL",
+      "frames": 125,
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 11,
+        "total_errors": 11
+      },
+      "assertions": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0
+      },
+      "issues": []
+    }
+  },
+  "seam_matrix": {
+    "cases": [
+      {
+        "viewH": 8,
+        "offset": 0,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.25,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.25,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.5,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.5,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.75,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 8,
+        "offset": 0.75,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.25,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.25,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.5,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.5,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.75,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 16,
+        "offset": 0.75,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.25,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.25,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.5,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.5,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.75,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 26,
+        "offset": 0.75,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.25,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.25,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.5,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.5,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.75,
+        "subject": "边界格内外共边",
+        "sampled": 121,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 4,
+        "offset": 0.75,
+        "subject": "4格宏块共边",
+        "sampled": 1255,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0,
+        "subject": "边界格内外共边",
+        "sampled": 110,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0,
+        "subject": "4格宏块共边",
+        "sampled": 595,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.25,
+        "subject": "边界格内外共边",
+        "sampled": 110,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.25,
+        "subject": "4格宏块共边",
+        "sampled": 605,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.5,
+        "subject": "边界格内外共边",
+        "sampled": 110,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.5,
+        "subject": "4格宏块共边",
+        "sampled": 605,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.75,
+        "subject": "边界格内外共边",
+        "sampled": 110,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      },
+      {
+        "viewH": 80,
+        "offset": 0.75,
+        "subject": "4格宏块共边",
+        "sampled": 605,
+        "maxRGBDelta": 0,
+        "nonzero": 0,
+        "guard": true
+      }
+    ],
+    "combinations": 40,
+    "sampledPixels": 24866,
+    "maxRGBDelta": 0,
+    "nonzeroPixels": 0,
+    "allGuards": true
+  },
+  "material_provenance": {
+    "source": "assets/image/地图/tiles/industrial_walls.png",
+    "source_sha256": "f907a003b20b96ebff5199379a5b8fff40a5c093ac7f53f5d7ed4d5703e4d043",
+    "source_tile_id": 10,
+    "crop_pixels": [
+      816,
+      320,
+      976,
+      480
+    ],
+    "alpha_range": [
+      255,
+      255
+    ],
+    "process": "BOX 160→40，BICUBIC 40→256，水平/垂直镜像成512；去烘入高频棋盘纹，不使用AI生成，不修改原图",
+    "output": "assets/image/地图/tiles/industrial_wall_fill.png",
+    "output_sha256": "070714a70f5743a373dabfbedb5e18869f8c622de137de5801f871c9b9be1d1a"
+  },
+  "rollback": {
+    "tar": "before.tar.gz",
+    "manifest": "manifest.json",
+    "map_only_restore": [
+      "scripts/core/editor_render.lua",
+      "scripts/core/render.lua",
+      "scripts/core/terrain_tiles.lua",
+      "scripts/core/tile_render.lua",
+      "scripts/core/tilemap.lua",
+      "scripts/core/tilesets.lua",
+      "scripts/main.lua",
+      "scripts/tests/industrial_tiles_validation.lua"
+    ],
+    "added_files_to_remove_only_if_hash_matches": [
+      "scripts/core/camera_bounds.lua",
+      "scripts/core/grid_regions.lua",
+      "scripts/tests/camera_bounds_pure.lua",
+      "scripts/tests/map_optimization_validation.lua",
+      "scripts/tests/terrain_groups_validation.lua",
+      "assets/image/地图/tiles/industrial_wall_fill.png"
+    ],
+    "keep_other_changes": true,
+    "require_official_build_after_restore": true,
+    "not_executed": true
+  },
+  "limits": [
+    "Linux surfaceless screenshots raw FAIL with known LUT texture3DLod shader errors; retry run also corrupted shader binary/frame spikes; Lua/resources zero, assertions pass",
+    "No Unity runtime, physical mobile hardware, native desktop window resize, or FPS certification tested",
+    "camera pure mocks cover DPR, not real Retina device"
+  ]
+}

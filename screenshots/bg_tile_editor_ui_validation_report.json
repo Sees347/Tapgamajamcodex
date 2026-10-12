@@ -1,0 +1,115 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 16661,
+    "frames_completed": 200,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "FAIL",
+            "errors": [
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 19_53_33_819][13] ERROR: Execute Lua string failed: [string \"ui/background_palette\"]:314: attempt to call a nil value (method 'SetPlaceholder')",
+                    "frame": 10
+                },
+                {
+                    "category": "lua",
+                    "message": "[2026-10-11 19_53_46_633][168] ERROR: Execute Lua string failed: [string \"tests/tile_editor_ui_validation\"]:165: attempt to index a nil value (field '7:12')",
+                    "frame": 165
+                }
+            ]
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 33,
+            "component_count": 67,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1980.2969970703126
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.621999740600587
+        },
+        {
+            "frame": 100,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2607080104,
+            "frame_time_ms": 133.1230010986328
+        },
+        {
+            "frame": 200,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2607080104,
+            "frame_time_ms": 43.06999969482422
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 243.406005859375,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 31,
+        "CollisionBox2D": 29,
+        "CollisionCircle2D": 3
+    },
+    "test_result": "FAILED",
+    "test_assertions": {
+        "total": 22,
+        "passed": 8,
+        "failed": 14
+    },
+    "test_issues": [
+        "游戏HUD在编辑时隐藏",
+        "中央画布保留有效空间",
+        "顶部工具区拒绝落笔",
+        "布局保留稳定画布标识",
+        "图集包含可交互瓦片网格",
+        "存在按钮：导入图片",
+        "导入弹窗阻挡地图输入",
+        "弹窗打开后不误涂地图",
+        "存在按钮：地图设置",
+        "地图尺寸设置独立弹窗可打开",
+        "存在按钮：退出并测试",
+        "退出后进入当前编辑地图试玩",
+        "试玩恢复虚拟控制",
+        "试玩读取已保存地面瓦片"
+    ],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 2,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 2
+    }
+}

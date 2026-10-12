@@ -1,0 +1,92 @@
+[
+  {
+    "source": "assets/audio/Music/主界面.mp3",
+    "source_sha256": "7581611642689dc746c79f49b5171e8c90e49bb068c584c6334855916541eee4",
+    "source_size": 500640,
+    "source_format": "mp3",
+    "source_codec": "mp3",
+    "runtime": "assets/audio/runtime/menu.ogg",
+    "runtime_size": 179539,
+    "duration": 12.51265
+  },
+  {
+    "source": "assets/audio/Music/游戏场景bgm.mp3",
+    "source_sha256": "14e912d90e913f5d5a38703c99446bc135b0d40bf1715af8715f17ff7b0e8cef",
+    "source_size": 5204770,
+    "source_format": "mp3",
+    "source_codec": "mp3",
+    "runtime": "assets/audio/runtime/game.ogg",
+    "runtime_size": 2042153,
+    "duration": 130.1159
+  },
+  {
+    "source": "assets/audio/SoundsEffects/史莱姆落地的声音.mp3",
+    "source_sha256": "8887df14b8eb7be26cbaf27f4546427cc8c88e69a872812e3e60b096eb5acd98",
+    "source_size": 94334,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/landing.wav",
+    "runtime_size": 93324,
+    "duration": 0.528322
+  },
+  {
+    "source": "assets/audio/SoundsEffects/子弹击中敌人的声音.mp3",
+    "source_sha256": "fe5e1cab24a0f3d3177bd35b7184b1549d1486d6323b5f998375cabcb16ce51e",
+    "source_size": 99354,
+    "source_format": "wav",
+    "source_codec": "pcm_s24le",
+    "runtime": "assets/audio/runtime/bullet_hit.wav",
+    "runtime_size": 66266,
+    "duration": 0.375011
+  },
+  {
+    "source": "assets/audio/SoundsEffects/存档点点亮声音.mp3",
+    "source_sha256": "946a2de4c87dcb6c47edc3564e403944646ee9efa08dea0ce16fe2e78e125e03",
+    "source_size": 303364,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/spring.wav",
+    "runtime_size": 303266,
+    "duration": 1.718753
+  },
+  {
+    "source": "assets/audio/SoundsEffects/按钮点击音效.mp3",
+    "source_sha256": "f4f1fd77e7c52e1691b1d7e67f92fbcdea1c6f50821d3d5a49d091c06ead94fb",
+    "source_size": 303364,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/click.wav",
+    "runtime_size": 303266,
+    "duration": 1.718753
+  },
+  {
+    "source": "assets/audio/SoundsEffects/机器人激光发射.mp3",
+    "source_sha256": "dfa7e57d56d77055e64b8b3ec0d3a4c0a8a4223788dbe3364e3844bf4147e686",
+    "source_size": 174194,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/robot_laser.wav",
+    "runtime_size": 174194,
+    "duration": 0.987052
+  },
+  {
+    "source": "assets/audio/SoundsEffects/水弹发射的声音.mp3",
+    "source_sha256": "f07a24d1e2593e37f5504a314a240650f2cd0c16df2bd45b62138bbf43d197cf",
+    "source_size": 74866,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/water_shot.wav",
+    "runtime_size": 73856,
+    "duration": 0.417959
+  },
+  {
+    "source": "assets/audio/SoundsEffects/获取水量的声音.mp3",
+    "source_sha256": "89029ec15d493acc15ff4713b2b6421ae697bc7d04f0d3437e1033554069cf7f",
+    "source_size": 191106,
+    "source_format": "wav",
+    "source_codec": "pcm_s16le",
+    "runtime": "assets/audio/runtime/absorb.wav",
+    "runtime_size": 190096,
+    "duration": 1.076916
+  }
+]

@@ -1,0 +1,657 @@
+{
+  "created_utc": "20261012T095449Z",
+  "purpose": "瓦片地图、碰撞与相机优化前的可回退快照",
+  "files": [
+    {
+      "path": ".project/i18n.json",
+      "sha256": "23a8a01e7009d873cc9258e8fd75c85ef1d80b2c367f961bdd094cb471beb0bb",
+      "bytes": 2504
+    },
+    {
+      "path": ".project/i18n.json.meta",
+      "sha256": "af221658dd229d359f51a4efe5474c7aeba385c546c8eb17a5426ece22cc2a83",
+      "bytes": 38
+    },
+    {
+      "path": ".project/project.json",
+      "sha256": "8937c0fbdd4800b1e28a565f69177f0fcb701f45e73168f0491e652cddde12f2",
+      "bytes": 2911
+    },
+    {
+      "path": ".project/project.json.meta",
+      "sha256": "97f0172209e59143eed23394ba62e69988e18c7b44f56fe655778ac6cb5dccc1",
+      "bytes": 38
+    },
+    {
+      "path": ".project/resources.json",
+      "sha256": "b94943eaba9f7a4401760f706b2619fb3d368db267acb9db7d14e96f5b6b43d6",
+      "bytes": 135
+    },
+    {
+      "path": ".project/resources.json.meta",
+      "sha256": "c288342195c71aaa2efa4386159951e27d727f025b825ad310a63155cf718577",
+      "bytes": 38
+    },
+    {
+      "path": ".project/settings.json",
+      "sha256": "d946290560242df79ba4e00ce55828fc916d31f6b567c36fc801c312bb8f8b80",
+      "bytes": 1245
+    },
+    {
+      "path": ".project/settings.json.meta",
+      "sha256": "cdde17030b3a620dd36b58e39a875e36755eecd8657db09ad177a3d191426b26",
+      "bytes": 56
+    },
+    {
+      "path": "mapedit_world.json",
+      "sha256": "74222c3f6af38d09caecd911a431824a0e524f43bca23e73d4bb30d283bd73f5",
+      "bytes": 18162
+    },
+    {
+      "path": "scripts/.luarc.json",
+      "sha256": "3932c5f5eba857bf344dec2d9f8d30bdd6fb482f95d575275301805edab8ff3f",
+      "bytes": 1882
+    },
+    {
+      "path": "scripts/config.lua",
+      "sha256": "633dbc4c8312e06a492167f56194c40fd892e2ca80b45a99043efec3a2cc8bac",
+      "bytes": 18022
+    },
+    {
+      "path": "scripts/config.lua.meta",
+      "sha256": "ed01181d9dc19593447b56a5c341251ea93e59707a44b3c7dd276aa983ec9439",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/abilities.lua",
+      "sha256": "290c048a3051b2aa15d66c69d830c3c796e5467d56423df74bb6d877875718ff",
+      "bytes": 18185
+    },
+    {
+      "path": "scripts/core/abilities.lua.meta",
+      "sha256": "38bdda23a82af77a20b167fa245fe06d3bb12304e7a8ffa51a621639ad6b3d26",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/art.lua",
+      "sha256": "408e215beef827272646ba24595920633ca7bb1c7b37b5c1413fc2be32fa697a",
+      "bytes": 23767
+    },
+    {
+      "path": "scripts/core/art.lua.meta",
+      "sha256": "0d577cfc46e95ac340d66cd2b5337b471bf80fb3eb5017ed4a0619371a26b66d",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/audio.lua",
+      "sha256": "5832817c16f688235b7a249d296d8fe7d5fd12f3e3964b94502cd9c6cdbbea77",
+      "bytes": 10399
+    },
+    {
+      "path": "scripts/core/audio.lua.meta",
+      "sha256": "fdc60f7310f36fbf63c1b1e80b6e2f631b8bed9659c6d8280b27a0db58243e14",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/bossfx.lua",
+      "sha256": "1eaf0f7aeb4f22757727028dd34eacf7a075d427508a49ac0f452a0edb984a5a",
+      "bytes": 6028
+    },
+    {
+      "path": "scripts/core/bossfx.lua.meta",
+      "sha256": "9fbdb470760a4c9ba06a312622a6ae5934a788126d2ab7f5c1efd620acfb6aab",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/bullets.lua",
+      "sha256": "12e94cb2ec7c8a94f9d42d2567aa3f46c706c80166e54a01efb19d77f2cd855b",
+      "bytes": 10300
+    },
+    {
+      "path": "scripts/core/bullets.lua.meta",
+      "sha256": "e7a24856b345acdfe1fa6f3950ade6d4d1bc918403a984285ce09ba290b58dd7",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/combat_fx.lua",
+      "sha256": "2a7925eb14c97b0c8d086a3c91aa363736da8ad1be863e5f02eae21c2eb81fab",
+      "bytes": 3843
+    },
+    {
+      "path": "scripts/core/combat_fx.lua.meta",
+      "sha256": "11cd0ec979524e43e948c34f301bc55a1c5d7ec3ae6118a306a86cccfe83b899",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/editor_backgrounds.lua",
+      "sha256": "13507fb7324afddfa32af3e05df298cfb9d2520e38624b35a451f7bdf66f7ae3",
+      "bytes": 11194
+    },
+    {
+      "path": "scripts/core/editor_backgrounds.lua.meta",
+      "sha256": "407a2ed27674dee6199d07488c09946f6e43a4cf8167332ba5735158983f9cc6",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/editor_gameplay.lua",
+      "sha256": "41648d635f1f670af2e5b877fc9ebd5446c5de961d0883b794bd155140bafb5f",
+      "bytes": 5225
+    },
+    {
+      "path": "scripts/core/editor_gameplay.lua.meta",
+      "sha256": "d8cc924c954d4f8438eda31c1aa169a9786cba3ba2bf7d1a32439d1003845d4a",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/editor_render.lua",
+      "sha256": "f0cc26be06bf77769218174a1cd06f49fd0c705523a2ce57e2e747ed87debe7d",
+      "bytes": 10405
+    },
+    {
+      "path": "scripts/core/editor_render.lua.meta",
+      "sha256": "d8fd791b95f3dce7a911c185af50e40b37076119905d6440d5303cc2d5152188",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/enemies.lua",
+      "sha256": "f51e5a2f6f067df44bee2452f17cf4b4a18c88fb7cd79348976147c188f93e07",
+      "bytes": 29936
+    },
+    {
+      "path": "scripts/core/enemies.lua.meta",
+      "sha256": "0cd7246a1e60ddefad024cec945e19de04bc08a3d958611d754c6a6cffcd1fe8",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/hazards.lua",
+      "sha256": "0632fe84409e580f3a0f6eb436f3d31047239ef262fa555cfb51b5c4b7f8aefd",
+      "bytes": 15261
+    },
+    {
+      "path": "scripts/core/hazards.lua.meta",
+      "sha256": "694611235759850a923e673db0f000568e136c0449ace0e7b14fdd4871850477",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/level.lua",
+      "sha256": "af096a88cbfedfa72e08ece171b0797a3e644a3826c6b06e34ff8a9bfd2adc58",
+      "bytes": 8406
+    },
+    {
+      "path": "scripts/core/level.lua.meta",
+      "sha256": "518ed5ff1577a251954e880cf6bc5fd8861da482c57b8919395e3f3ec0e30188",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/map_backgrounds.lua",
+      "sha256": "1dc93bdebd16569d14435262057b716a70a7fc03cc54d2c0374cdec2335abb1e",
+      "bytes": 18078
+    },
+    {
+      "path": "scripts/core/map_backgrounds.lua.meta",
+      "sha256": "5d6f2fd3e2df75140dab07054a88167e0191fd653581ce6e24075aca14be9c48",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/map_editor.lua",
+      "sha256": "57cac31ded47da6fb4d23c78a0cbb92b6f689ce94a1a6969e6e08f3d34a9653c",
+      "bytes": 36585
+    },
+    {
+      "path": "scripts/core/map_editor.lua.meta",
+      "sha256": "2f364e881cbc3cbd72f5b7d195e147737942c89fe81613ea5c4dd4c165f2f2fe",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/melee_fx.lua",
+      "sha256": "308d8741178cba29d9afb6c5bacd6e2cfc95fb175b6945c288ce59d43e00afd0",
+      "bytes": 3728
+    },
+    {
+      "path": "scripts/core/melee_fx.lua.meta",
+      "sha256": "ecea07a482ff69879d3f5e0b9d8a20518f8d34660ea399f80a70675aec66b663",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/player.lua",
+      "sha256": "f451cbf352a7161416d6614bd4440872a2e3e4bbfb8832c0c81c561aa6288aa2",
+      "bytes": 24118
+    },
+    {
+      "path": "scripts/core/player.lua.meta",
+      "sha256": "84cbf374cb5b5b1219787ad3b75709ea4d3a2457dabf21766440b1df47c41b8a",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/playtest.lua",
+      "sha256": "db8d2c1c037db47edc937c00f2eed0f47f8140376614e827c17ae3159b8e12c2",
+      "bytes": 1530
+    },
+    {
+      "path": "scripts/core/playtest.lua.meta",
+      "sha256": "a9e17e0b6674fb903edac7bcc9ada4e1a02d9fed9429faf14a2605442b8751eb",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/render.lua",
+      "sha256": "962f8d22654dc81a70c6374d212a8aa43b0de024ce0bf9582a4d96b9724fbdbe",
+      "bytes": 59780
+    },
+    {
+      "path": "scripts/core/render.lua.meta",
+      "sha256": "5f53c6a184be76fb11cfead6738aa03e9d2e3f5394fbb6675250b0c3d37f5ce4",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/state.lua",
+      "sha256": "d4e3ea23aeb405a23c73213fed0fcfc01f583c4c91effda556887c27def25ab6",
+      "bytes": 8485
+    },
+    {
+      "path": "scripts/core/state.lua.meta",
+      "sha256": "27dc1989fccb61c70876d91fefb5bc29a607d05c70b389c5ac48dfb434ccbae5",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/terrain_tiles.lua",
+      "sha256": "d220034a379f48f0142431180e6b8a04f64698da026c08bb1de66fa0f45e6182",
+      "bytes": 2084
+    },
+    {
+      "path": "scripts/core/terrain_tiles.lua.meta",
+      "sha256": "eb272c15364dff044357adcd175ded4482d1671259142fde5df159c2f489682a",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/tile_render.lua",
+      "sha256": "acedbbb0fe15f4a27573f54a462d3f8de6c05d8bb1b575ba5dcf926ed8e9498a",
+      "bytes": 7313
+    },
+    {
+      "path": "scripts/core/tile_render.lua.meta",
+      "sha256": "fbb48ea4a85a7bd728b0bedf172310d16976e2b4cfeeb0327c6db11ff75e74de",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/tilemap.lua",
+      "sha256": "924317e558a8ab1a31436647fd5bf07bdaf4e7f1d2d78a7247bf6f5fa476478c",
+      "bytes": 21024
+    },
+    {
+      "path": "scripts/core/tilemap.lua.meta",
+      "sha256": "96c7ffdab57fffa5a02f2d4440bc426dfd384bdd6b89e9cb6525ee479657aea2",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/tilesets.lua",
+      "sha256": "fe085f9b319e1fb0784b4d60c541c0788bca53ee3f217a5a86f36aba5e0b235d",
+      "bytes": 43748
+    },
+    {
+      "path": "scripts/core/tilesets.lua.meta",
+      "sha256": "f95280d73dc4b637803dada0a9bab20f839a7ea55d050f9d66d0a8a04b216a75",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/tuning.lua",
+      "sha256": "b0cb92c9886683a1f92f1ca9ae343b5af94c98897ab25784d60dbd0a2d69f0c2",
+      "bytes": 15143
+    },
+    {
+      "path": "scripts/core/tuning.lua.meta",
+      "sha256": "a2574d3d90bbe95e86eae24e33bb9fec14ecafc2cc0d39cc49d3f3c954281c09",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/core/world_map.lua",
+      "sha256": "e86a586f5704eb3a78e626ee3d895fba539bd81ca3985532a12352bf76953f10",
+      "bytes": 5105
+    },
+    {
+      "path": "scripts/core/world_map.lua.meta",
+      "sha256": "1069f3ba48d7f7c11e723bb87561609998f708b90fdedf07591703d9a15d968d",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/art.lua",
+      "sha256": "ea2d3c9a577cf70f5d6fa2c3fcc57b2b4fdbd219ad2fc650f19b14a70f2fe566",
+      "bytes": 13122
+    },
+    {
+      "path": "scripts/data/art.lua.meta",
+      "sha256": "79e8450d122075854536e97f508aaef7b434d056fc699b78c0b98770c2c33c97",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/audio.lua",
+      "sha256": "82ebd8e87bee87059cd8a8065ec53a1a286ba98e93db95f01a90ae16b258ca30",
+      "bytes": 1928
+    },
+    {
+      "path": "scripts/data/audio.lua.meta",
+      "sha256": "6832f82c36bbe6a3185b90d19ca8739be055e5e740bbc6398a30e07247c7c7a2",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/backgrounds.lua",
+      "sha256": "aa43b342b1f2ec58cbd4c7288e4938a2845a707177e3c96d0192846b471740f9",
+      "bytes": 612
+    },
+    {
+      "path": "scripts/data/backgrounds.lua.meta",
+      "sha256": "1262a23b98d8827be993e42ec376e10a1fea49a7ce36b8e426840db445bf2da3",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/fish.lua",
+      "sha256": "1466f6744c15a35e5f1256c2abc988ced872008ab052ebcd976e180c8a5c4295",
+      "bytes": 7279
+    },
+    {
+      "path": "scripts/data/fish.lua.meta",
+      "sha256": "49e297c39c378605d51e2c859d325b81f073af4e7fe870fd8015d8ff1fc9ba0b",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/items.lua",
+      "sha256": "7379a7ad287b26d0fc40d69cd28f17fcce6872e3a69896c23933df207d1b4f29",
+      "bytes": 3233
+    },
+    {
+      "path": "scripts/data/items.lua.meta",
+      "sha256": "072ecee2a177dede544a3231a13674c1318de22f7819b8f5de4910cb57d48015",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/monsters.lua",
+      "sha256": "bb856469bfcc39991042bf99609a208e8368fd33527538aed6826a2c071fa2ef",
+      "bytes": 7239
+    },
+    {
+      "path": "scripts/data/monsters.lua.meta",
+      "sha256": "1338b1ff6f45e35ffa9d56148bd8c41219fb1098f05b33c7b15e61967e809d72",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/data/tilesets.lua",
+      "sha256": "78a14856a746ca51461a3d927fa3b698fc3799d2e840f0ddc8906d3c30098808",
+      "bytes": 3976
+    },
+    {
+      "path": "scripts/data/tilesets.lua.meta",
+      "sha256": "dae609e1246d006cd5237a9572701b0209c0130dafb802bdc03b050b1fe58cae",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/editor_map.lua",
+      "sha256": "8e45636cd1fb89738fef3550e3c66415cd62c094033e4b994981b16e2db0fd1b",
+      "bytes": 507
+    },
+    {
+      "path": "scripts/levels/editor_map.lua.meta",
+      "sha256": "f8308dbe28ca4f16a6a5baf14ab1c9b1ec0a32c93103e55867cffd35501a8c9e",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/editor_map_src.lua",
+      "sha256": "c0df856cf01137ca75bec9916b697b1063efa9a99d00de2c69d1678f7f00e8b9",
+      "bytes": 2077
+    },
+    {
+      "path": "scripts/levels/editor_map_src.lua.meta",
+      "sha256": "8c2d150cadd1a23297cadc9db2dbdffca28cba6483fadf18efa5bc6d1918b5ae",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab01.lua",
+      "sha256": "0b1097396cbb981370610117d417a2b0997955e0cf07168690ed81eecbd5ef54",
+      "bytes": 479
+    },
+    {
+      "path": "scripts/levels/lab01.lua.meta",
+      "sha256": "34c0c09658fad8b47a35c2554d1a47770ccdd87fbbd8fe0c7e87288ab67d7ddd",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab01_src.lua",
+      "sha256": "238ba3e87a8043386f7181c80671e73693af4defc9fa503fe13717532d7137f2",
+      "bytes": 2916
+    },
+    {
+      "path": "scripts/levels/lab01_src.lua.meta",
+      "sha256": "46998e5cb6ab59e403c946af99253dcbe41e9db84ba3b95e0a1dcc3cdf04e181",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab02.lua",
+      "sha256": "366981008bcabd9da2ec40181996c1ab5a5b7e2d5ef9b6c1f077556d1fa07279",
+      "bytes": 422
+    },
+    {
+      "path": "scripts/levels/lab02.lua.meta",
+      "sha256": "da28817cf9130e6372b38f63af270f89e7fc3aa751f84e8fb4d362e875e36c40",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab02_src.lua",
+      "sha256": "61b231d0cf622206b2642880296999ad8ddd1705880c4bdee82d7f36e71215a9",
+      "bytes": 4396
+    },
+    {
+      "path": "scripts/levels/lab02_src.lua.meta",
+      "sha256": "bde5c64d5862c72131a699c15313fbdb1969065dd956a2ec5b696cd97d193f8e",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab03.lua",
+      "sha256": "b1f254f427c093e76d33088811c185a88936c50679247f6514d09cd3e609e069",
+      "bytes": 419
+    },
+    {
+      "path": "scripts/levels/lab03.lua.meta",
+      "sha256": "5de6544b8c9501d9c61274014cf62532d6eed0c15d006ebeccc2e0c36408d54c",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/lab03_src.lua",
+      "sha256": "00a4fcb7a6855ba4002c16633b095cd45450824e30a539e0785e3afac7227473",
+      "bytes": 3279
+    },
+    {
+      "path": "scripts/levels/lab03_src.lua.meta",
+      "sha256": "eeac6a905211d59e1eba19c59302f2fd888d28dd67b747dfc33caa0902d0ce0e",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/testmap.lua",
+      "sha256": "02878f0680d13c419e55668591dc324a64d206b60a9dac0f0316999dcd4c5a4e",
+      "bytes": 6909
+    },
+    {
+      "path": "scripts/levels/testmap.lua.meta",
+      "sha256": "c7c4802300e4bbc4e96499219216bab6b7e8fbb685cdad169afaf41c2e3e5393",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/levels/world_src.lua",
+      "sha256": "204352019c907bcde79e364a4ad970c488c746ca2da0f13cd5168e4fbfda85bb",
+      "bytes": 1881710
+    },
+    {
+      "path": "scripts/levels/world_src.lua.meta",
+      "sha256": "3f70a6ad121de563bcf98e3bac8138f9652d04d9c807651d6c0a522aa4f6a422",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/main.lua",
+      "sha256": "35e88b56b5a45ef4dff9a6f2d7b65684663379d17563b9e1dac0d1a5befae6a6",
+      "bytes": 48719
+    },
+    {
+      "path": "scripts/main.lua.meta",
+      "sha256": "88e9a22dd0c4931a68f71bb4c0566107f51a26f113631c2b04b7a4fbf0646cb1",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/background_validation.lua",
+      "sha256": "36176c95db81c9128834274a510c5252cf6543d4b99f06de488b85a6a9b316e1",
+      "bytes": 10659
+    },
+    {
+      "path": "scripts/tests/background_validation.lua.meta",
+      "sha256": "c2141a7ece3ede65c7d858ec172f9749247b9c4861c47357cd7a45ddef03c270",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/editor_gameplay_validation.lua",
+      "sha256": "b3e2bc37fa3fa087579b360712461ded9e5fe61164148b583dd37dfed42bfba5",
+      "bytes": 9617
+    },
+    {
+      "path": "scripts/tests/editor_gameplay_validation.lua.meta",
+      "sha256": "40a92d1e2015b6bb866510a00cb4d89db010b290ce3a7b30fb0d7f0ad885c8d2",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/gameplay_elements_validation.lua",
+      "sha256": "ffd3df788ab4708f6933bb3b43dc5fd5a0e53466884d156b78ba276c48abe222",
+      "bytes": 27968
+    },
+    {
+      "path": "scripts/tests/gameplay_elements_validation.lua.meta",
+      "sha256": "629c024827fcf0e68d6cdca5f573a43d1c8b5b8fccb6042b6f1dc1ed812fa7c4",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/industrial_tiles_validation.lua",
+      "sha256": "b578cdcfedb005329c60723a69da495eb26721f6fbb202a41af01bb47339a816",
+      "bytes": 6644
+    },
+    {
+      "path": "scripts/tests/industrial_tiles_validation.lua.meta",
+      "sha256": "12ddd66545ee7f02b76e3cfc8828a27f8c52c10ee851efdf75922bfc8aeea768",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/shared_map_validation.lua",
+      "sha256": "4a4285d6e0179b1f5a2ffca72e9b8d23ed0aca6b668ef1db19f5c35e060108c3",
+      "bytes": 4377
+    },
+    {
+      "path": "scripts/tests/shared_map_validation.lua.meta",
+      "sha256": "1a174dff3bc009ef4f365e4098023b167eaec2d461645a479e9fb02bc2fbd95d",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/tile_editor_regression.lua",
+      "sha256": "32f581863209a2c23a32d95c70a5dc685eea1f3350a108d1712d49b2c8a15ff3",
+      "bytes": 8080
+    },
+    {
+      "path": "scripts/tests/tile_editor_regression.lua.meta",
+      "sha256": "e525595c506d530d4eee4d64d7ec382fbf7f3f69187d25a1bd42b6da83c249f3",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/tile_editor_ui_validation.lua",
+      "sha256": "16983952b0e109aacc3c21b9d52c49fa71358c2a49e9eb348606a506b09cee2e",
+      "bytes": 8086
+    },
+    {
+      "path": "scripts/tests/tile_editor_ui_validation.lua.meta",
+      "sha256": "5bb20876756d4c3199476866c9b0d33549b6e698abc0199097c3cef2a2f393c8",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/tests/world_validation.lua",
+      "sha256": "efadfcc917118ecaa7c3655cae101a61df8fe05a6443bbe5e4e1cb90786efa55",
+      "bytes": 9308
+    },
+    {
+      "path": "scripts/tests/world_validation.lua.meta",
+      "sha256": "59945422af867c600a3652f355cc5f702518c3255cc003168f63c9d661baf0e3",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/background_palette.lua",
+      "sha256": "8d4aa31c2a8db4ba9fb9e6abb41c6557b218ce48791bc47298d2f938f4338bec",
+      "bytes": 15563
+    },
+    {
+      "path": "scripts/ui/background_palette.lua.meta",
+      "sha256": "26985528ca8e4a0534e5ea3cd9408e76f956d4410393ea63c400921e578148da",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/gameplay_properties.lua",
+      "sha256": "8a4e05a4619c9cdb49b567462ed0fb815fabc27a7d82cc022ad13a40e0335b8d",
+      "bytes": 5717
+    },
+    {
+      "path": "scripts/ui/gameplay_properties.lua.meta",
+      "sha256": "e8bf03ee570b4f75f8aab016bce43da0924c4c3c42d870503bd248a9f2bf1bd3",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/hud.lua",
+      "sha256": "db3a8ac6bc0ce5cbd8aec69196f131d71fa19e5815bbb4bc771b7bdbd341ea68",
+      "bytes": 12540
+    },
+    {
+      "path": "scripts/ui/hud.lua.meta",
+      "sha256": "064d48383e02fe83669277a0889c426ca8532754c788be831c140954b80cab76",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/map_editor.lua",
+      "sha256": "f3fd173be778da041d3c61dac00dda0bca134f031f64d212071a0cbd693d9f7f",
+      "bytes": 34532
+    },
+    {
+      "path": "scripts/ui/map_editor.lua.meta",
+      "sha256": "9e3d1761c1e336e6be5991b79111dc861dfdd65ef1421db678b983fbf319b74d",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/map_export.lua",
+      "sha256": "f0dc602d8ff0dd5d81b3096e4767d827bb6103cf28d01d4c1c3a87e62b760648",
+      "bytes": 27226
+    },
+    {
+      "path": "scripts/ui/map_export.lua.meta",
+      "sha256": "6ceb62d23f65e9cb3d6b52a0ea55c1b8863d543723537aa8bb6286823404de98",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/menus.lua",
+      "sha256": "828d9d9704eb13d2f797f204475ec8c44ce991fd8033f1131f3ffbd1e54ab6e9",
+      "bytes": 15165
+    },
+    {
+      "path": "scripts/ui/menus.lua.meta",
+      "sha256": "c279068835754b89c08f5a5e89080d1872c5e78100be5536b82dbefa11d1d81f",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/tile_palette.lua",
+      "sha256": "202d72572dac172d3e572033278077cdbe851d9d88dbc842ad932cbaee7f3696",
+      "bytes": 28250
+    },
+    {
+      "path": "scripts/ui/tile_palette.lua.meta",
+      "sha256": "12d30a538a8da47ffec7cea626c5e11aa09e9c58a2236cd6bc5a2c4c986f1beb",
+      "bytes": 40
+    },
+    {
+      "path": "scripts/ui/tuning.lua",
+      "sha256": "b8bd78a0d47e487bed3ddddfe3c26732130e5ada175dd245d5c77f1ab1d7250f",
+      "bytes": 5181
+    },
+    {
+      "path": "scripts/ui/tuning.lua.meta",
+      "sha256": "2e402203e07b8c91811a4fdd5d40c0b8023c0e0a1c7f07dcb5c115f3ab8d7464",
+      "bytes": 40
+    }
+  ],
+  "restore_note": "只按manifest恢复所列文件；备份不会自动删除后续新增文件。恢复后使用官方build重建dist。"
+}

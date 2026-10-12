@@ -1,0 +1,8 @@
+{
+  "changed": [
+    "scripts/core/art.lua",
+    "scripts/data/art.lua",
+    "assets/image/runtime/liquid_turn.png"
+  ],
+  "non_target_unchanged": true
+}

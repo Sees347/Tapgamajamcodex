@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "changed": [
+    "scripts/core/art.lua",
+    "scripts/data/art.lua",
+    "assets/image/runtime/liquid_turn.png"
+  ],
+  "non_target_resources_unchanged": true,
+  "endpoint_colors_alpha_shadow_match_idle": true,
+  "back_frames": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "frame_dimensions": [
+    [
+      178,
+      137
+    ],
+    [
+      177,
+      137
+    ],
+    [
+      176,
+      137
+    ],
+    [
+      176,
+      137
+    ],
+    [
+      176,
+      137
+    ],
+    [
+      176,
+      137
+    ],
+    [
+      177,
+      137
+    ],
+    [
+      178,
+      137
+    ]
+  ],
+  "raw_front_facing_frame_removed": true
+}

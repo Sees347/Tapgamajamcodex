@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "changed": [
+    "scripts/core/art.lua",
+    "scripts/data/art.lua"
+  ],
+  "all_images_unchanged": true,
+  "other_gameplay_unchanged": true
+}
