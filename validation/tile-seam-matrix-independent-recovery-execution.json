@@ -1,0 +1,14 @@
+[
+  {
+    "color": "white",
+    "exit_code": 1,
+    "timeout_seconds": 800,
+    "internal_timeout": 760
+  },
+  {
+    "color": "black",
+    "exit_code": 1,
+    "timeout_seconds": 800,
+    "internal_timeout": 760
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "entry": "/workspace/scripts/main.lua",
+  "binary": "/workspace/.cli/UrhoXRuntime",
+  "installed_runtime_preserved": true,
+  "build_invoked": false,
+  "production_files_written_by_this_test": false,
+  "runtime_env": {
+    "LIBGL_ALWAYS_SOFTWARE": "1",
+    "GALLIUM_DRIVER": "llvmpipe",
+    "EGL_PLATFORM": "surfaceless",
+    "HTTP_PROXY": "http://127.0.0.1:1080",
+    "HTTPS_PROXY": "http://127.0.0.1:1080",
+    "ALL_PROXY": "http://127.0.0.1:1080"
+  },
+  "runtime_flags": [
+    "main.lua",
+    "-tool_mode",
+    "-tapcode_dir=/workspace",
+    "-graphicssurfaceless",
+    "-nosound",
+    "-validate",
+    "-validate-frames=125",
+    "-validate-timeout=230",
+    "-validate-spike-threshold=5000",
+    "-screenshot-frame=120",
+    "-log",
+    "info"
+  ],
+  "resolutions": [
+    "1280x720",
+    "1920x1080",
+    "2560x1440"
+  ],
+  "main_coverage_runs": 6,
+  "supplementary_integer_translation_runs": 3,
+  "same_position_only_changed_field": "opaque underlay color; every geometry/projection/image/UV unchanged (exact source comparison verified)",
+  "lsp_error_counts": {
+    "tile-seam-matrix-independent.lua": 0,
+    "tile-seam-matrix-independent-black.lua": 0,
+    "tile-seam-matrix-independent-white.lua": 0
+  },
+  "final_status": "completed 1280/1920 same-position pairs; 2560 incomplete stopped without further retry",
+  "recovery_cancelled": true,
+  "full_requested_matrix_pass": false
+}

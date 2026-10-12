@@ -1,0 +1,274 @@
+[
+  {
+    "name": "swordfish-003-stage1-p005-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage1-p035-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage1-p085-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage1-p105-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage2-p005-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage2-p035-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage2-p085-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage2-p105-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage3-p005-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage3-p035-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage3-p085-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage3-p105-f1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage1-p035-f-1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage2-p035-f-1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage3-p035-f-1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  },
+  {
+    "name": "swordfish-003-stage5-p035-f-1",
+    "exit": 1,
+    "result": "FAIL",
+    "test": "PASSED",
+    "assertions": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "lua_errors": 0,
+    "missing": [],
+    "screenshot": true,
+    "engine_messages": [
+      "WARNING: 0:462: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:471: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nWARNING: 0:680: 'sampler/image' : type requires declaration of default precision qualifier substituting 'mediump'\nERROR: 0:721: 'texture3DLod' : no matching overloaded function found \nERROR: 0:721: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated.\n\n\nCode:\n---\n    712: const float LinearGrey = 0.18;\n    713: const float ExposureGrey = 444.0 / 1023.0;\n    714: float logToLinZero = exp2((0.0 - ExposureGrey) * LinearRange) * LinearGrey;\n    715: vec3 encoded = LinToLog(max(hdrColor, vec3_splat(0.0)) + vec3_splat(logToLinZero));\n    716: vec3 lutUV = clamp(encoded, 0.0, 1.0);\n    717: float invLutSize = 1.0 / lutSize;\n    718: float halfTexel = 0.5 * invLutSize;\n    719: float scale = 1.0 - invLutSize;\n    720: vec3 coord = lutUV * scale + vec3_splat(halfTexel);\n    721: return texture3DLod(u_VolumeMap, coord, 0.0).rgb;\n\n>>> 722: }\n>>>   0: ^\n\n    723: vec4 KawaseBlur(vec2 invSize, sampler2D texSampler, vec2 texCoord, float offset)\n    724: {\n    725: return 0.25 * texture(texSampler, texCoord + vec2(offset, offset) * invSize)\n    726: + 0.25 * texture(texSampler, texCoord + vec2(-offset, offset) * invSize)\n    727: + 0.25 * texture(texSampler, texCoord + vec2(-offset, -offset) * invSize)\n    728: + 0.25 * texture(texSampler, texCoord + vec2(offset, -offset) * invSize);\n    729: }\n    730: void main()\n    731: {\n---\n"
+    ]
+  }
+]

@@ -1,0 +1,205 @@
+{
+  "project": "涌泉 UrhoX Lua",
+  "code_files": [
+    {
+      "path": "scripts/core/terrain_tiles.lua",
+      "sha256": "d220034a379f48f0142431180e6b8a04f64698da026c08bb1de66fa0f45e6182"
+    },
+    {
+      "path": "scripts/core/tilesets.lua",
+      "sha256": "fe085f9b319e1fb0784b4d60c541c0788bca53ee3f217a5a86f36aba5e0b235d"
+    },
+    {
+      "path": "scripts/core/map_backgrounds.lua",
+      "sha256": "1dc93bdebd16569d14435262057b716a70a7fc03cc54d2c0374cdec2335abb1e"
+    },
+    {
+      "path": "scripts/levels/world_src.lua",
+      "sha256": "204352019c907bcde79e364a4ad970c488c746ca2da0f13cd5168e4fbfda85bb"
+    },
+    {
+      "path": "scripts/tests/industrial_tiles_validation.lua",
+      "sha256": "b578cdcfedb005329c60723a69da495eb26721f6fbb202a41af01bb47339a816"
+    },
+    {
+      "path": "scripts/tests/shared_map_validation.lua",
+      "sha256": "4a4285d6e0179b1f5a2ffca72e9b8d23ed0aca6b668ef1db19f5c35e060108c3"
+    },
+    {
+      "path": "scripts/tests/background_validation.lua",
+      "sha256": "36176c95db81c9128834274a510c5252cf6543d4b99f06de488b85a6a9b316e1"
+    }
+  ],
+  "original_assets_read_only": [
+    {
+      "path": "assets/image/地图/tiles/industrial_walls.png",
+      "sha256": "f907a003b20b96ebff5199379a5b8fff40a5c093ac7f53f5d7ed4d5703e4d043"
+    },
+    {
+      "path": "assets/image/地图/tiles/industrial_walls.png.meta",
+      "sha256": "f1d56a907392a334abb81a12679fdeb00d5b9b4326e1ca5db821c0166a4b1e21"
+    },
+    {
+      "path": "assets/image/地图/backgrounds/industrial_backdrop.jpg",
+      "sha256": "f8585b5c37fc54b9e49f9bae17b93acb4ab25c97e350bf1c7cff4857e1a8e329"
+    }
+  ],
+  "evidence": {
+    "wall_slot": [
+      0,
+      0,
+      256,
+      256
+    ],
+    "wall_visible_bbox_exclusive": [
+      12,
+      4,
+      243,
+      252
+    ],
+    "wall_opaque_interior_exclusive": [
+      24,
+      16,
+      232,
+      240
+    ],
+    "background_old_gap_m": 0.033277870213,
+    "background_new_gap_m": 0,
+    "target_cell_m": 1,
+    "terrain_overlap_pixels_added": 0,
+    "collision_changes": false
+  },
+  "regressions": [
+    {
+      "report": "tile-seam-final-industrial-safety.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 65,
+        "passed": 65,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      }
+    },
+    {
+      "report": "tile-seam-shared_map_validation.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 19,
+        "passed": 19,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      }
+    },
+    {
+      "report": "tile-seam-tile_editor_regression.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 39,
+        "passed": 39,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      }
+    },
+    {
+      "report": "tile-seam-final-background-regression.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 43,
+        "passed": 43,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 10,
+        "total_errors": 10
+      }
+    },
+    {
+      "report": "tile-seam-physics-final.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      }
+    },
+    {
+      "report": "tile-seam-final-gameplay_elements_validation.json",
+      "raw_result": "FAIL",
+      "test_result": "PASSED",
+      "assertions": {
+        "total": 118,
+        "passed": 118,
+        "failed": 0
+      },
+      "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 9,
+        "total_errors": 9
+      }
+    }
+  ],
+  "build": "official build succeeded; LSP errors=0",
+  "startup_report": "tile-seam-final-startup.json: PASS, 90 frames, all errors=0 (headless only)",
+  "same_condition_screenshots": [
+    {
+      "image": "assets/image/validation/terrain-seam-comparison.png",
+      "resolution": "1920x1080",
+      "camX": 15.5,
+      "camY": -185.7,
+      "viewH": 16
+    },
+    {
+      "image": "assets/image/validation/background-seam-comparison.png",
+      "resolution": "1920x1080",
+      "camX": 121.1,
+      "camY": -178.85,
+      "viewH": 16
+    }
+  ],
+  "physics_measurements": {
+    "dt": 0.008333333333333333,
+    "walk_metres": 2.1847,
+    "floor_y_spread_metres": 0,
+    "jump_horizontal_metres": 2.2706,
+    "jump_rise_metres": 2.205,
+    "assertions_passed": 6
+  },
+  "limitations": [
+    "Unity工程及Unity Game/Player未运行",
+    "移动端DPR2/3和浏览器实机未验证",
+    "保留素材外沿透明细节、颜色重复及背景内容错位",
+    "surfaceless引擎texture3DLod编译错误保留，报告raw FAIL",
+    "2560x1440黑白同位置定量配对未验证（首次黑底75帧超时，未达截图120帧）"
+  ],
+  "scale_matrix_report": "tile-seam-matrix-independent-same-position-quantitative.json",
+  "scale_matrix_status": "1280x720、1920x1080：游戏视野8/16/26、编辑视野4/80、偏移0/0.25/0.5/0.75，墙/背景共边80组合通过；2560x1440同位置配对因超时未验证"
+}

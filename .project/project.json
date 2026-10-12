@@ -1,0 +1,54 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "m_fn9f",
+  "author": {
+    "id": "2001401544"
+  },
+  "entry": "main.lua",
+  "version": "1.0.5",
+  "taptap_publish": {
+    "title": "涌泉",
+    "description": "扮演水精灵，切换液态、气态与固态，探索横版世界。搭配不同水生生物，组合出多变的弹幕攻击，体验战斗、探索与小解谜的乐趣。",
+    "category": "action",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "这是我们围绕“涌现”主题制作的 Game Jam 作品，希望简单的规则能组合出意想不到的玩法。游戏还在完善中，欢迎体验，也欢迎分享你的发现和建议！",
+    "app_platforms": "1,2",
+    "developer_id": 462514,
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/cb5001fa-d892-4c42-9bca-503e0e0ea45b/1791360018745-uploaded_d6a78077.mp4",
+    "app_id": 963137,
+    "miniapp_id": "tapmc5hi20fbyzad0w"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-10-07T08-03-32_01.png",
+    "screenshots": [
+      "./game_material/SCREENSHOT_2026-10-07T08-03-32_01.png",
+      "./game_material/SCREENSHOT_2026-10-07T08-03-32_02.png",
+      "./game_material/SCREENSHOT_2026-10-07T08-03-32_03.png"
+    ],
+    "promotional_image": "./game_material/PROMO_2026-10-07T08-03-32_01.jpg",
+    "source_screenshots": [
+      "_uploads/e816903bc7e9629dfe8a91b244eb3cc7d1a18f935e132e0ffe6799dd444cb07a.png",
+      "_uploads/11f0c2e11db357f20a966956fb160d0a838e17b8c908a9ae0db01093d1694f54.png",
+      "_uploads/3f18b8fdac10d04f1a6915c054c1ba2df2afec716d6c005cc7f21cf6b0d87bba.png"
+    ],
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/ICON_2026-10-07T08-03-32_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/SCREENSHOT_2026-10-07T08-03-32_01.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/SCREENSHOT_2026-10-07T08-03-32_02.png",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/SCREENSHOT_2026-10-07T08-03-32_03.png"
+    ],
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/PROMO_2026-10-07T08-03-32_01.jpg",
+    "cover_horizontal": "./game_material/COVER_HORIZONTAL_2026-10-07T08-04-05_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/COVER_HORIZONTAL_2026-10-07T08-04-05_01.png",
+    "cover_vertical": "./game_material/COVER_VERTICAL_2026-10-07T08-04-22_01.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/涌泉/COVER_VERTICAL_2026-10-07T08-04-22_01.png"
+  },
+  "metadata": {
+    "updated_at": "2026-10-11T13:10:56.589Z"
+  },
+  "test_qrcode": {
+    "url": "https://tapcode-sce.spark.xd.com/qrcode/m_fn9f_1791724256441.png",
+    "generated_at": "2026-10-11T13:10:56.589Z"
+  }
+}

@@ -1,0 +1,2205 @@
+{
+  "clips": {
+    "fish_archerfish": {
+      "path": "image/runtime/fish_archerfish.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": -1,
+      "bounds": [
+        58,
+        87,
+        192,
+        165
+      ],
+      "frameBounds": [
+        [
+          58,
+          91,
+          192,
+          165
+        ],
+        [
+          59,
+          88,
+          188,
+          164
+        ],
+        [
+          59,
+          87,
+          183,
+          165
+        ],
+        [
+          59,
+          89,
+          190,
+          165
+        ]
+      ],
+      "sources": [
+        "FishAnim/FishAnim/ArcherFish/射水鱼待机.png",
+        "FishAnim/FishAnim/ArcherFish/射水鱼待机.png",
+        "FishAnim/FishAnim/ArcherFish/射水鱼待机.png",
+        "FishAnim/FishAnim/ArcherFish/射水鱼待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ],
+      "icon": "image/runtime/fish_archerfish_icon.png"
+    },
+    "fish_eel": {
+      "path": "image/runtime/fish_eel.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": -1,
+      "bounds": [
+        49,
+        43,
+        201,
+        230
+      ],
+      "frameBounds": [
+        [
+          50,
+          49,
+          200,
+          213
+        ],
+        [
+          51,
+          46,
+          200,
+          230
+        ],
+        [
+          50,
+          43,
+          201,
+          222
+        ],
+        [
+          49,
+          46,
+          201,
+          207
+        ]
+      ],
+      "sources": [
+        "FishAnim/FishAnim/ElectricEel/电鳗待机.png",
+        "FishAnim/FishAnim/ElectricEel/电鳗待机.png",
+        "FishAnim/FishAnim/ElectricEel/电鳗待机.png",
+        "FishAnim/FishAnim/ElectricEel/电鳗待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ],
+      "icon": "image/runtime/fish_eel_icon.png"
+    },
+    "fish_flyfish": {
+      "path": "image/runtime/fish_flyfish.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": -1,
+      "bounds": [
+        48,
+        88,
+        215,
+        232
+      ],
+      "frameBounds": [
+        [
+          48,
+          91,
+          212,
+          232
+        ],
+        [
+          48,
+          90,
+          214,
+          225
+        ],
+        [
+          48,
+          88,
+          215,
+          219
+        ],
+        [
+          48,
+          91,
+          213,
+          228
+        ]
+      ],
+      "sources": [
+        "FishAnim/FishAnim/FlyFish/飞鱼待机.png",
+        "FishAnim/FishAnim/FlyFish/飞鱼待机.png",
+        "FishAnim/FishAnim/FlyFish/飞鱼待机.png",
+        "FishAnim/FishAnim/FlyFish/飞鱼待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ],
+      "icon": "image/runtime/fish_flyfish_icon.png"
+    },
+    "fish_anglerfish": {
+      "path": "image/runtime/fish_anglerfish.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": -1,
+      "bounds": [
+        24,
+        29,
+        228,
+        225
+      ],
+      "frameBounds": [
+        [
+          24,
+          31,
+          228,
+          223
+        ],
+        [
+          38,
+          29,
+          226,
+          222
+        ],
+        [
+          45,
+          29,
+          226,
+          225
+        ],
+        [
+          34,
+          30,
+          226,
+          224
+        ]
+      ],
+      "sources": [
+        "FishAnim/FishAnim/LanternFish/安康鱼待机.png",
+        "FishAnim/FishAnim/LanternFish/安康鱼待机.png",
+        "FishAnim/FishAnim/LanternFish/安康鱼待机.png",
+        "FishAnim/FishAnim/LanternFish/安康鱼待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ],
+      "icon": "image/runtime/fish_anglerfish_icon.png"
+    },
+    "fish_ray": {
+      "path": "image/runtime/fish_ray.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": -1,
+      "bounds": [
+        33,
+        44,
+        212,
+        241
+      ],
+      "frameBounds": [
+        [
+          43,
+          47,
+          194,
+          233
+        ],
+        [
+          33,
+          47,
+          212,
+          241
+        ],
+        [
+          38,
+          44,
+          211,
+          240
+        ],
+        [
+          36,
+          46,
+          210,
+          228
+        ]
+      ],
+      "sources": [
+        "FishAnim/FishAnim/Ray/鳐鱼待机.png",
+        "FishAnim/FishAnim/Ray/鳐鱼待机.png",
+        "FishAnim/FishAnim/Ray/鳐鱼待机.png",
+        "FishAnim/FishAnim/Ray/鳐鱼待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ],
+      "icon": "image/runtime/fish_ray_icon.png"
+    },
+    "liquid_idle": {
+      "path": "image/runtime/liquid_idle.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        17,
+        64,
+        226,
+        208
+      ],
+      "frameBounds": [
+        [
+          25,
+          67,
+          206,
+          207
+        ],
+        [
+          23,
+          76,
+          218,
+          208
+        ],
+        [
+          17,
+          84,
+          226,
+          208
+        ],
+        [
+          28,
+          64,
+          208,
+          207
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/Idle/待机y-1.png",
+        "PlayerAnim/LiquidStatePlayer/Idle/待机y-2.png",
+        "PlayerAnim/LiquidStatePlayer/Idle/待机y-3.png",
+        "PlayerAnim/LiquidStatePlayer/Idle/待机y-4.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ]
+    },
+    "liquid_move": {
+      "path": "image/runtime/liquid_move.png",
+      "count": 7,
+      "fps": 12,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        10,
+        66,
+        252,
+        213
+      ],
+      "frameBounds": [
+        [
+          24,
+          66,
+          203,
+          207
+        ],
+        [
+          17,
+          80,
+          205,
+          207
+        ],
+        [
+          10,
+          96,
+          218,
+          208
+        ],
+        [
+          24,
+          81,
+          252,
+          210
+        ],
+        [
+          46,
+          73,
+          238,
+          212
+        ],
+        [
+          47,
+          79,
+          234,
+          213
+        ],
+        [
+          47,
+          78,
+          233,
+          213
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-1.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-2.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-3.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-4.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-5.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-6.png",
+        "PlayerAnim/LiquidStatePlayer/Move/Yt流动-7.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "liquid_jump": {
+      "path": "image/runtime/liquid_jump.png",
+      "count": 19,
+      "fps": 20,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        7,
+        2,
+        228,
+        206
+      ],
+      "frameBounds": [
+        [
+          24,
+          66,
+          209,
+          206
+        ],
+        [
+          24,
+          74,
+          208,
+          206
+        ],
+        [
+          22,
+          80,
+          212,
+          206
+        ],
+        [
+          22,
+          53,
+          217,
+          205
+        ],
+        [
+          29,
+          21,
+          212,
+          204
+        ],
+        [
+          28,
+          2,
+          218,
+          183
+        ],
+        [
+          21,
+          8,
+          223,
+          154
+        ],
+        [
+          29,
+          6,
+          217,
+          145
+        ],
+        [
+          25,
+          3,
+          218,
+          148
+        ],
+        [
+          38,
+          28,
+          203,
+          186
+        ],
+        [
+          22,
+          83,
+          212,
+          206
+        ],
+        [
+          23,
+          77,
+          209,
+          206
+        ],
+        [
+          7,
+          95,
+          228,
+          206
+        ],
+        [
+          15,
+          89,
+          221,
+          206
+        ],
+        [
+          22,
+          78,
+          210,
+          206
+        ],
+        [
+          24,
+          74,
+          209,
+          206
+        ],
+        [
+          24,
+          74,
+          208,
+          206
+        ],
+        [
+          24,
+          74,
+          208,
+          206
+        ],
+        [
+          27,
+          68,
+          204,
+          206
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-1.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-2.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-3.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-4.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-5.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-6.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-7.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-8.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-9.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-10.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-11.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-12.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-13.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-14.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-15.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-16.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-17.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-18.png",
+        "PlayerAnim/LiquidStatePlayer/Jump/跳y-19.png"
+      ],
+      "sheetSize": [
+        1024,
+        2048
+      ]
+    },
+    "liquid_scald": {
+      "path": "image/runtime/liquid_scald.png",
+      "count": 16,
+      "fps": 18,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        1,
+        9,
+        249,
+        206
+      ],
+      "frameBounds": [
+        [
+          26,
+          68,
+          205,
+          205
+        ],
+        [
+          6,
+          67,
+          226,
+          206
+        ],
+        [
+          15,
+          63,
+          216,
+          206
+        ],
+        [
+          17,
+          65,
+          222,
+          205
+        ],
+        [
+          8,
+          60,
+          238,
+          206
+        ],
+        [
+          1,
+          46,
+          246,
+          206
+        ],
+        [
+          14,
+          29,
+          249,
+          206
+        ],
+        [
+          13,
+          17,
+          249,
+          206
+        ],
+        [
+          28,
+          14,
+          249,
+          205
+        ],
+        [
+          23,
+          12,
+          248,
+          205
+        ],
+        [
+          26,
+          11,
+          204,
+          205
+        ],
+        [
+          26,
+          9,
+          205,
+          205
+        ],
+        [
+          26,
+          11,
+          205,
+          205
+        ],
+        [
+          26,
+          11,
+          205,
+          205
+        ],
+        [
+          26,
+          10,
+          205,
+          205
+        ],
+        [
+          26,
+          68,
+          205,
+          205
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-1.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-2.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-3.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-4.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-5.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-6.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-7.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-8.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-9.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-10.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-11.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-12.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-13.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-14.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-15.png",
+        "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-16.png"
+      ],
+      "sheetSize": [
+        1024,
+        1024
+      ]
+    },
+    "liquid_to_solid": {
+      "path": "image/runtime/liquid_to_solid.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        25,
+        13,
+        216,
+        223
+      ],
+      "frameBounds": [
+        [
+          29,
+          68,
+          207,
+          218
+        ],
+        [
+          25,
+          59,
+          215,
+          218
+        ],
+        [
+          29,
+          40,
+          214,
+          218
+        ],
+        [
+          35,
+          26,
+          206,
+          218
+        ],
+        [
+          37,
+          17,
+          207,
+          219
+        ],
+        [
+          32,
+          16,
+          216,
+          223
+        ],
+        [
+          33,
+          16,
+          214,
+          223
+        ],
+        [
+          36,
+          13,
+          214,
+          223
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-1.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-2.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-3.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-4.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-5.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-6.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-7.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "liquid_to_gas": {
+      "path": "image/runtime/liquid_to_gas.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        4,
+        16,
+        238,
+        239
+      ],
+      "frameBounds": [
+        [
+          27,
+          68,
+          204,
+          205
+        ],
+        [
+          27,
+          56,
+          218,
+          208
+        ],
+        [
+          4,
+          32,
+          238,
+          230
+        ],
+        [
+          11,
+          30,
+          229,
+          229
+        ],
+        [
+          5,
+          16,
+          225,
+          237
+        ],
+        [
+          5,
+          16,
+          228,
+          239
+        ],
+        [
+          20,
+          42,
+          228,
+          239
+        ],
+        [
+          20,
+          42,
+          228,
+          239
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-1.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-2.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-3.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-4.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-5.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-6.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-7.png",
+        "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_idle": {
+      "path": "image/runtime/solid_idle.png",
+      "count": 8,
+      "fps": 10,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        32,
+        15,
+        211,
+        208
+      ],
+      "frameBounds": [
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          33,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ],
+        [
+          32,
+          15,
+          211,
+          208
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-1.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-2.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-3 (1).png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-4.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-5.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-6.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-7.png",
+        "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_move": {
+      "path": "image/runtime/solid_move.png",
+      "count": 8,
+      "fps": 12,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        30,
+        11,
+        221,
+        217
+      ],
+      "frameBounds": [
+        [
+          32,
+          13,
+          212,
+          210
+        ],
+        [
+          32,
+          13,
+          214,
+          211
+        ],
+        [
+          32,
+          11,
+          212,
+          211
+        ],
+        [
+          31,
+          11,
+          211,
+          213
+        ],
+        [
+          31,
+          13,
+          218,
+          214
+        ],
+        [
+          31,
+          12,
+          221,
+          216
+        ],
+        [
+          30,
+          21,
+          211,
+          217
+        ],
+        [
+          30,
+          21,
+          209,
+          216
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-1.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-2.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-3.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-4.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-5.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-6.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-7.png",
+        "PlayerAnim/SolidStatePlayer/IceMove/冰走-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_jump": {
+      "path": "image/runtime/solid_jump.png",
+      "count": 8,
+      "fps": 12,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        22,
+        29,
+        223,
+        240
+      ],
+      "frameBounds": [
+        [
+          43,
+          75,
+          201,
+          240
+        ],
+        [
+          43,
+          75,
+          201,
+          240
+        ],
+        [
+          43,
+          66,
+          199,
+          235
+        ],
+        [
+          46,
+          30,
+          195,
+          203
+        ],
+        [
+          46,
+          29,
+          197,
+          201
+        ],
+        [
+          48,
+          48,
+          194,
+          224
+        ],
+        [
+          22,
+          106,
+          223,
+          240
+        ],
+        [
+          43,
+          75,
+          201,
+          240
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-1.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-2.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-3.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-4.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-5.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-6.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-7.png",
+        "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_scald": {
+      "path": "image/runtime/solid_scald.png",
+      "count": 8,
+      "fps": 12,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        0,
+        7,
+        252,
+        231
+      ],
+      "frameBounds": [
+        [
+          31,
+          19,
+          212,
+          216
+        ],
+        [
+          30,
+          27,
+          215,
+          217
+        ],
+        [
+          25,
+          37,
+          223,
+          217
+        ],
+        [
+          20,
+          37,
+          235,
+          216
+        ],
+        [
+          4,
+          37,
+          247,
+          217
+        ],
+        [
+          0,
+          7,
+          252,
+          231
+        ],
+        [
+          25,
+          37,
+          223,
+          217
+        ],
+        [
+          31,
+          18,
+          212,
+          217
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-1.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-2.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-3.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-4.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-5.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-6.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-7.png",
+        "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_electric": {
+      "path": "image/runtime/solid_electric.png",
+      "count": 8,
+      "fps": 12,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        0,
+        18,
+        252,
+        235
+      ],
+      "frameBounds": [
+        [
+          53,
+          49,
+          193,
+          204
+        ],
+        [
+          53,
+          49,
+          193,
+          204
+        ],
+        [
+          38,
+          37,
+          203,
+          206
+        ],
+        [
+          38,
+          39,
+          202,
+          205
+        ],
+        [
+          0,
+          19,
+          252,
+          235
+        ],
+        [
+          20,
+          18,
+          228,
+          235
+        ],
+        [
+          51,
+          41,
+          198,
+          205
+        ],
+        [
+          53,
+          49,
+          193,
+          203
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-1.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-2.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-3.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-4.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-5.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-6.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-7.png",
+        "PlayerAnim/SolidStatePlayer/IceElectric/，电-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_to_liquid": {
+      "path": "image/runtime/solid_to_liquid.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        23,
+        12,
+        218,
+        222
+      ],
+      "frameBounds": [
+        [
+          35,
+          12,
+          209,
+          222
+        ],
+        [
+          32,
+          17,
+          212,
+          221
+        ],
+        [
+          25,
+          30,
+          218,
+          219
+        ],
+        [
+          23,
+          45,
+          213,
+          217
+        ],
+        [
+          30,
+          49,
+          202,
+          219
+        ],
+        [
+          29,
+          62,
+          203,
+          219
+        ],
+        [
+          26,
+          69,
+          204,
+          220
+        ],
+        [
+          25,
+          70,
+          204,
+          220
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-1.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-2.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-3.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-4.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-5.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-6.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-7.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "solid_to_gas": {
+      "path": "image/runtime/solid_to_gas.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        36,
+        0,
+        211,
+        243
+      ],
+      "frameBounds": [
+        [
+          50,
+          42,
+          190,
+          213
+        ],
+        [
+          50,
+          42,
+          190,
+          213
+        ],
+        [
+          50,
+          25,
+          190,
+          213
+        ],
+        [
+          50,
+          3,
+          195,
+          213
+        ],
+        [
+          44,
+          21,
+          196,
+          213
+        ],
+        [
+          36,
+          2,
+          211,
+          227
+        ],
+        [
+          39,
+          0,
+          204,
+          243
+        ],
+        [
+          40,
+          63,
+          204,
+          242
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-1.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-2.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-3.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-4.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-5.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-6.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-7.png",
+        "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "gas_idle": {
+      "path": "image/runtime/gas_idle.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        19,
+        33,
+        230,
+        242
+      ],
+      "frameBounds": [
+        [
+          19,
+          40,
+          230,
+          242
+        ],
+        [
+          23,
+          36,
+          223,
+          242
+        ],
+        [
+          25,
+          33,
+          215,
+          242
+        ],
+        [
+          23,
+          36,
+          223,
+          242
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasIdle/气态待机.png",
+        "PlayerAnim/GasStatePlayer/GasIdle/气态待机.png",
+        "PlayerAnim/GasStatePlayer/GasIdle/气态待机.png",
+        "PlayerAnim/GasStatePlayer/GasIdle/气态待机.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ]
+    },
+    "gas_move": {
+      "path": "image/runtime/gas_move.png",
+      "count": 8,
+      "fps": 12,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        12,
+        21,
+        242,
+        243
+      ],
+      "frameBounds": [
+        [
+          25,
+          41,
+          234,
+          243
+        ],
+        [
+          21,
+          37,
+          239,
+          239
+        ],
+        [
+          18,
+          34,
+          240,
+          234
+        ],
+        [
+          14,
+          33,
+          242,
+          223
+        ],
+        [
+          12,
+          27,
+          240,
+          216
+        ],
+        [
+          12,
+          21,
+          241,
+          218
+        ],
+        [
+          16,
+          28,
+          241,
+          226
+        ],
+        [
+          24,
+          35,
+          233,
+          236
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png",
+        "PlayerAnim/GasStatePlayer/GasMove/气态行走.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "gas_up": {
+      "path": "image/runtime/gas_up.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        8,
+        36,
+        245,
+        246
+      ],
+      "frameBounds": [
+        [
+          25,
+          36,
+          217,
+          242
+        ],
+        [
+          9,
+          36,
+          245,
+          243
+        ],
+        [
+          15,
+          36,
+          227,
+          246
+        ],
+        [
+          8,
+          36,
+          227,
+          237
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasFly/气态上升.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态上升.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态上升.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态上升.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ]
+    },
+    "gas_down": {
+      "path": "image/runtime/gas_down.png",
+      "count": 4,
+      "fps": 8,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        8,
+        36,
+        245,
+        246
+      ],
+      "frameBounds": [
+        [
+          25,
+          36,
+          217,
+          242
+        ],
+        [
+          9,
+          36,
+          245,
+          243
+        ],
+        [
+          15,
+          36,
+          227,
+          246
+        ],
+        [
+          8,
+          36,
+          227,
+          237
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasFly/气态下降.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态下降.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态下降.png",
+        "PlayerAnim/GasStatePlayer/GasFly/气态下降.png"
+      ],
+      "sheetSize": [
+        1024,
+        256
+      ]
+    },
+    "gas_attack": {
+      "path": "image/runtime/gas_attack.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        18,
+        39,
+        252,
+        235
+      ],
+      "frameBounds": [
+        [
+          21,
+          41,
+          234,
+          235
+        ],
+        [
+          21,
+          49,
+          244,
+          235
+        ],
+        [
+          25,
+          47,
+          239,
+          235
+        ],
+        [
+          24,
+          39,
+          243,
+          235
+        ],
+        [
+          30,
+          39,
+          252,
+          230
+        ],
+        [
+          36,
+          47,
+          249,
+          231
+        ],
+        [
+          26,
+          49,
+          252,
+          228
+        ],
+        [
+          18,
+          42,
+          249,
+          229
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png",
+        "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "gas_hurt": {
+      "path": "image/runtime/gas_hurt.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        16,
+        0,
+        238,
+        243
+      ],
+      "frameBounds": [
+        [
+          16,
+          47,
+          234,
+          242
+        ],
+        [
+          18,
+          52,
+          234,
+          243
+        ],
+        [
+          30,
+          8,
+          224,
+          221
+        ],
+        [
+          28,
+          6,
+          226,
+          224
+        ],
+        [
+          26,
+          3,
+          229,
+          227
+        ],
+        [
+          22,
+          0,
+          234,
+          227
+        ],
+        [
+          18,
+          0,
+          238,
+          229
+        ],
+        [
+          19,
+          1,
+          227,
+          238
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png",
+        "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "gas_to_liquid": {
+      "path": "image/runtime/gas_to_liquid.png",
+      "count": 8,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        0,
+        30,
+        239,
+        230
+      ],
+      "frameBounds": [
+        [
+          20,
+          49,
+          227,
+          227
+        ],
+        [
+          21,
+          54,
+          222,
+          212
+        ],
+        [
+          19,
+          52,
+          226,
+          228
+        ],
+        [
+          20,
+          45,
+          231,
+          219
+        ],
+        [
+          13,
+          40,
+          231,
+          223
+        ],
+        [
+          9,
+          37,
+          234,
+          226
+        ],
+        [
+          0,
+          30,
+          239,
+          230
+        ],
+        [
+          19,
+          73,
+          213,
+          208
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png",
+        "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "liquid_flyfish": {
+      "path": "image/runtime/liquid_flyfish.png",
+      "count": 8,
+      "fps": 12,
+      "loop": true,
+      "facing": 1,
+      "bounds": [
+        44,
+        21,
+        197,
+        243
+      ],
+      "frameBounds": [
+        [
+          44,
+          45,
+          195,
+          202
+        ],
+        [
+          46,
+          55,
+          197,
+          211
+        ],
+        [
+          44,
+          43,
+          194,
+          243
+        ],
+        [
+          45,
+          39,
+          196,
+          194
+        ],
+        [
+          44,
+          25,
+          194,
+          199
+        ],
+        [
+          44,
+          21,
+          193,
+          220
+        ],
+        [
+          44,
+          33,
+          195,
+          189
+        ],
+        [
+          44,
+          41,
+          194,
+          240
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-1.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-2.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-3.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-4.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-5.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-6.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-7.png",
+        "PlayerAnim/WaterAndFly/合成_1_00001_(9)-8.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    },
+    "liquid_anglerfish": {
+      "path": "image/runtime/liquid_anglerfish.png",
+      "count": 11,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        19,
+        36,
+        225,
+        236
+      ],
+      "frameBounds": [
+        [
+          26,
+          96,
+          204,
+          235
+        ],
+        [
+          24,
+          97,
+          205,
+          235
+        ],
+        [
+          19,
+          105,
+          210,
+          236
+        ],
+        [
+          20,
+          63,
+          208,
+          236
+        ],
+        [
+          20,
+          63,
+          208,
+          236
+        ],
+        [
+          24,
+          41,
+          202,
+          235
+        ],
+        [
+          24,
+          36,
+          225,
+          235
+        ],
+        [
+          24,
+          36,
+          225,
+          235
+        ],
+        [
+          24,
+          36,
+          219,
+          235
+        ],
+        [
+          24,
+          36,
+          219,
+          235
+        ],
+        [
+          24,
+          36,
+          219,
+          235
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-1.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-2.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-3.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-4.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-5.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-6.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-7.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-8.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-9.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-10.png",
+        "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-11.png"
+      ],
+      "sheetSize": [
+        1024,
+        1024
+      ]
+    },
+    "liquid_anglerfish_off": {
+      "path": "image/runtime/liquid_anglerfish_off.png",
+      "count": 6,
+      "fps": 16,
+      "loop": false,
+      "facing": 1,
+      "bounds": [
+        18,
+        36,
+        219,
+        236
+      ],
+      "frameBounds": [
+        [
+          24,
+          36,
+          219,
+          235
+        ],
+        [
+          22,
+          44,
+          208,
+          235
+        ],
+        [
+          18,
+          106,
+          211,
+          236
+        ],
+        [
+          24,
+          97,
+          205,
+          235
+        ],
+        [
+          24,
+          97,
+          205,
+          235
+        ],
+        [
+          25,
+          96,
+          204,
+          235
+        ]
+      ],
+      "sources": [
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-1.png",
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-2.png",
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-3.png",
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-4.png",
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-5.png",
+        "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-6.png"
+      ],
+      "sheetSize": [
+        1024,
+        512
+      ]
+    }
+  },
+  "originalHashes": {
+    "FishAnim/FishAnim/ArcherFish/射水鱼待机.png": "e18ad0e5edb1d035720c3268c2b3323726716608dd82fce9f8be326be169d968",
+    "FishAnim/FishAnim/ElectricEel/电鳗待机.png": "e4d7645f5e36424f0aa19ad5274195b53e351800388fbba7041c68f361816610",
+    "FishAnim/FishAnim/FlyFish/飞鱼待机.png": "ce13ddc25f00dcff62d7eb6911d413fa4766f756c7a0d7c90cbdb3e8c2e8bc71",
+    "FishAnim/FishAnim/LanternFish/安康鱼待机.png": "a621f604a740189344699d1ef8aa182c866fe6d6a96a6f6d07fe331636c72929",
+    "FishAnim/FishAnim/Ray/鳐鱼待机.png": "097080b735062b93bbf3dad16fd939fe655c362b3a918ddf8264cc62de487cdd",
+    "PlayerAnim/LiquidStatePlayer/Idle/待机y-1.png": "9859d313739426862ab1c42b1d2823dfce380d82c1f8b3709ee9a28ff3c31ef5",
+    "PlayerAnim/LiquidStatePlayer/Idle/待机y-2.png": "71aae1449106755ae3491ad2b6ec68444094e467b0ba1460d88be7870433d44a",
+    "PlayerAnim/LiquidStatePlayer/Idle/待机y-3.png": "950a45747d6268af698788efea6923635bf4029699119d840c1a83e20d950302",
+    "PlayerAnim/LiquidStatePlayer/Idle/待机y-4.png": "7c1f3cf981c9fce237f1821d9a1294d4ae1479c3bfe1f14d448685a04bb41512",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-1.png": "5f00b92ba081ade856617e5f02643723e9e970d608cf8b416f581dd5cb81f98d",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-2.png": "5efaaf7ef04e5a0e51ace8a49cbf0c0bdaa70971cb14026aba65d9f3ed0e582c",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-3.png": "3fe4a6fceda7d265f286573727c0089ecbccb16a8b8f6f73e90c21b7830466a8",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-4.png": "969b05989bf3734a0b2f653848cccee27977db7a20fe1c104ddfcc4c34457e9d",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-5.png": "954b0f5cc46e61b473f43912fbb85c59d74d67bcc3a1e14c1c13735766c3ba69",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-6.png": "b681ccf6b4092b14f354f1b10aaaaef711b5c116b733cbe6ff7590a4b36cc5df",
+    "PlayerAnim/LiquidStatePlayer/Move/Yt流动-7.png": "fa6806932c09878dd90445b878f4cd83d2814816a15b47ad1832c1d31918bfdb",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-1.png": "879cde2b0aa1212eae8ed81f323e51c7b61fb9a1ad04eb0de39ca0a3c44406ed",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-2.png": "91f18fee87b0bfe260479c984a7b3308b2158ea018381dacd5a4b92359fbb7c7",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-3.png": "5988459cd978b8c49dccc44a537acf9c421e1ff2aee54a8509a29314c09ac7ca",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-4.png": "27530152cd2bd3eb3abf55e45c2121b8be345d6ceff6b8fe85b6b7661b84041f",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-5.png": "2412fb701d6def1c4aeba69ce299cbeab81deed42c42ea8dbc1dc6053499abb7",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-6.png": "f1dcda8087d5acf927a71248f8074952387b0cac949353b97dff593a61b69298",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-7.png": "6a2722884a0ff9bb7316c6d240f2af25ff4aae9895a31aab5d62cc9a4013135a",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-8.png": "fcc20f2bff38598d17827c374ba8be5c48d9252a878e6e9995c5074baf6eeeaf",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-9.png": "ac419a186d153db64199ad76f4153da3033e3dfbe64ab18ed66069fc64c863eb",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-10.png": "a62022c5b755b2658e99d4d42cfc9dfce76c6d41baf77e7f14e97774acff10f0",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-11.png": "7e61530ba7c1a9f924c3391c4a18e0b58734cec76ec80df9e2d0b0e19dccf3cd",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-12.png": "6e421d16a83a32b1a16180f66f83b19bec54306c2ee2bde876343178cd1e88c8",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-13.png": "fd5173a8174418214f442b8eaccb11cd9d7e1afb9d52014099b48e7667899416",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-14.png": "3f762a305bfafd03e4011deb939589b79451c4b9c9742888568cbc353c5bb22d",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-15.png": "a73f55efe2793fb90603dedff86fb6643cbb87e1374ce08d0504f5d0683bc880",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-16.png": "5eab9adfeeb611f6bbb15f7d8a0ec45ac21171277c6e6291f2828ca1f122c705",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-17.png": "a6c89e688eb78df035f60355a62084959d954b7a0ac42cd7fb4faa92bf9d91fc",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-18.png": "4549b344aa08902a27f86d3a16e8ec3366ff2c0574125765a76a231b13d6ddc7",
+    "PlayerAnim/LiquidStatePlayer/Jump/跳y-19.png": "14f2fda192d4ea2d8eeac9731736c707d3f755b2a45e159542d266b102b3b506",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-1.png": "9387fd7fa989def23a66d9b5d6f12e9c0390164e7cd7a96d9f1f203bf01d2a84",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-2.png": "46228f477d53fce65b58621c38078465ff198842cfadd6d89d90672af8c75c09",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-3.png": "ce1e8b44ca2c44e6d53d336936d7743d1bc002511e80332a56db62ca248695b5",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-4.png": "1376d55ea092879d58b68dd364d00fa7be84a82b2c54f026e7cf7974f0ae5452",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-5.png": "71906d82d3c75d8dd9fa3661f0c712dc6f6f29af9add4c881321c3683e1abf5d",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-6.png": "a437a8346ee80dae7800bfa1d1171ed21d43a340aae4f4518b5d17f2f7ad5584",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-7.png": "430df75ad3bb6cb50f0fb757b56e51c1888fbbbfe0ae11438ec9c3ef43308917",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-8.png": "115c7da0a287d88e9b5af4b43173e71d193dd5030f8845354eb40c078f4c99b8",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-9.png": "d956c84c1d21fe8de1ea189ea9d551c1d0300e72679aa1ee675a2c1eddcb9dba",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-10.png": "5f4f2aca5d2e552efc01add5c7f52f2fed9ac54c7a126d0ad8f809a90925e02d",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-11.png": "8226572cb54309e586c734d315c9e044da3dd904cb346566bcfc28e16fa63096",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-12.png": "e36de5f87d7c9b8359d26bf8bcaaf3e507c26786abebf2a39d2b68720e4ea2d2",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-13.png": "36462dea9e1a18986c4af2978bb728ee95c40abca51eb23ec40e4e99f792fa73",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-14.png": "6ca1d2d4827aa332e2717f2856c52c407bed814c0c2a5a7b601e74c0c1a750f0",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-15.png": "4ab8f9bc832a1501b43217702b10e1457a0f1ed40182356afb81812ccc86964f",
+    "PlayerAnim/LiquidStatePlayer/Scald/烫伤y-16.png": "c21e1efcf3871e1b651ebcdef5b24a2b77dbaf6a1235c2e5a4c104cfc0709fb2",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-1.png": "d8a9a53fce7c13c160b8873fca1af890d4f02ac217aee1aa7af832f35c1e1ffa",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-2.png": "c96c61b490cabf4f6dfac0ef8d586b5ee9c0817dcae47bcd19b85c281f788547",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-3.png": "ee7f7bd765181e8badd62e77d052fb9164ee7f7cc658e1d043bc970b15b7ebb0",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-4.png": "d08bf5fcc65fc5ba2ed142e188ae5226fd5bb6f29adc810f467f15030b379da6",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-5.png": "04a96d94158012164e4375e67a866341e6bb7aed87b27cd607525a07d0953539",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-6.png": "51baaeeb434f3900226854ceb66adc91044a1bca3c30e90599fa3d8bb18fc006",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-7.png": "6c8b154efbc542c4f773c8208402685cd631a0a532e9c89d93a32b579e32730e",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformIce/Yg-8.png": "22c87d75d4dc7452bbc7756c2d6c7c1a520bbd37833c8f6b8b33a2405b7be669",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-1.png": "d922179e7138141c71029603ed267091296835603e00cef1b73a081ae3030c7f",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-2.png": "59fe5a6eca1ba2aac9674f1a8ad91b0b3cb41bef6af45734574fccc5c78ebf21",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-3.png": "e5ad400795094643594dc68cbc39ec309c6e9dd057fb0eb85d6b314ef17ab5e2",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-4.png": "c40d70073ae61e872229844c843b593069a4e612e06408701cd6832893fca3e4",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-5.png": "91c8f9c9e05282484390369f6303d435a7a87917b7e105c174237ff287d07686",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-6.png": "95798654eeeec9984900eada1f97aa7cf2fea8ae8594877fdf62ccdeceb4af4a",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-7.png": "45698476e3b429929473454de70092d2da0d5996bb07be35e61071ed2bafc7a5",
+    "PlayerAnim/LiquidStatePlayer/WaterTransformGas/Yq-8.png": "80d3c625a69eb558602bfdf079563b74e81450574fa34ca86f0bc5b9d21a36cf",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-1.png": "c08488d8a6490fcf5aaa82c339890f0cf5a674e8e044f8720e7796ff751ea4f0",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-2.png": "e850db6c906da7ad7f9e9c30443616072c3f519fbcaf221616f424429c110052",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-3 (1).png": "6a0ca73b28743e31fada482dc96dfc16e1429fc7c33b1e7b163b0b95a72be842",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-4.png": "5adccb378309036a031004ca32e495791fc924e180ff03b961bb024ae034c24d",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-5.png": "07343473f11130f69cd2cb482bbf4b6f7f8914a0b3defc8c7cc9c6a31537f935",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-6.png": "3b9478aaea7691e1f7bf4a443e2d1d372e167d8749e7b3240c81ae446350df61",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-7.png": "9f31a4f8babedd316ac0cf5f45a59b26f8f3c3f69693c8224c38fa5fc42724d3",
+    "PlayerAnim/SolidStatePlayer/ICEIdle/Bk待机-8.png": "6b3c0e683fa4329aa608b7cc343b9ad276646838e113aa26696e67cddfaf01b4",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-1.png": "d58b3edb73a4d3fbf3c0c4ae6e8517a0267c10bd3da7dfa01184a9e3dae34893",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-2.png": "d72b24eba509afb25790c6f38fdee2c145e0861700e931538575a0fe939e5537",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-3.png": "70a589d33210e6ac01dafcee8715973f981f518a39d47f523547d5dad20c68a8",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-4.png": "4103532f3014f75233ce3ae10fb4716d193498c8839d0ea9c4fac50ba246c71b",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-5.png": "13b273749ee84be5759d632600b78d4126edd3755158828099cf6858939ca0a6",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-6.png": "8d8d33ba68cfcd7a66684be41b7b2585ece3302292a83c2005431ad27b979b58",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-7.png": "60d3e7611c67d184ba435cf142db6dceef4b6bbeedb089c261fe338b738bd28f",
+    "PlayerAnim/SolidStatePlayer/IceMove/冰走-8.png": "5e4a4abb9399364c44d3f411586b3c165f5d02159a946affb676856867c3d102",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-1.png": "d68afffa10bbd0288a3d33cb82d8acf97c315c9b7d4216ce2f11653bb701dd6e",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-2.png": "b92c130b204d84a186734b98d47f800d09a1e7aa5f5265067a94488ddc55bafc",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-3.png": "058b24c00788fa52e6fb79bc7805bd0037ad93d35b3522463e4a6ea126870b9a",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-4.png": "80fae98f1b0bb1497dc3f458056e4d864c38169775fb16169e134c504f5ea2eb",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-5.png": "fd4d34102312f87de4c853507fe3a83972cf09d7ae0eb3d38150ce5fa3e1a4f4",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-6.png": "676b2bcdec27188bf2aba18079b28b6b420be97670f92a83cb242b1514a9425a",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-7.png": "2832a82aa0964c3a479b10639298fdaff6026f3d3559543cff1f24040a3046e2",
+    "PlayerAnim/SolidStatePlayer/IceJump/合成_1_00001_(5)-8.png": "da024967a1c482212fb4c4f4989972decef9c43f35018d446d2e094175f329f1",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-1.png": "c1de55324ff26a15b19999ec92e6ea63b630355868205c81d931a85fd9be1eb4",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-2.png": "cd8a0cf6ce482b087651ce9b20efc4eeb22f6158a26bd81475ed59fcc642776b",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-3.png": "e96fd84e1e40744ffb3e9a7b5d8db918aed4f603da42c8d8a1d688e1aec18115",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-4.png": "7f6597c7c93355b5fb5286a97369d13072639671eb42df1cdb30e4349a3eecec",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-5.png": "95c58bdeabea56e9d022a8a19bbfea1e4dcae01fcee8cdf2dc413aab84b2b585",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-6.png": "63fcbd889be06ab34f0020ab659e12ebc3b2058ffa0cde24664e0be9e641dd06",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-7.png": "0c59f1fa647d43395dba99d141995ab769e982e65c305526e537e590e6eebb25",
+    "PlayerAnim/SolidStatePlayer/IceScald/冰块被烫伤_00001-8.png": "10d11c3386e79df5cb6138f4d525a9a49d4975bbc77fcd75bc7d564e7db775c0",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-1.png": "c716c162af8eb0b3b562822bc077ab28a9c501a51915645db3b451a352e29092",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-2.png": "c8db8ef628f3d2ccd328b7cbafe58d8450afc308b25c499e701baaca4c9eb344",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-3.png": "5f847d465187a709962049c9d0e90dc6d92e8fe461b34e5edf9ef40f0fa85ee1",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-4.png": "02c785a7da116c73080422051ad8b6229fc847264f5b9140de5c184d2d489a9d",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-5.png": "5ca585e9a8e960931eeb9e1ef71bdc06cae9230b789d1d07cf31ea512bda914d",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-6.png": "4fa207eb442fee153bdd4d3f79fdbc6610fe88b5ec1781ab27553b3cd5012e65",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-7.png": "57210f0fb565fd8bcd55b0c5566b76a2e40c993fa6bc358b8bbd3e003f3d063c",
+    "PlayerAnim/SolidStatePlayer/IceElectric/，电-8.png": "e74669e879ff60a8c1d68526757e74e7525e242b170e3ffb0e4a4091b963bfc1",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-1.png": "21767449d2f12f5a7264662830ee0b0222828161cf18b1c2480e96ccbb92d341",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-2.png": "41fed364debbb066e9b42549de60b4f3acefeda985a58540009cb0d4cc38f629",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-3.png": "63aa72b63c84e5f9440c19e2d64b857dbcf8e795f633be8979b5bce57f0cdae7",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-4.png": "0abc92379b1769077215a3efa7f807e17ca9c51048ce30fbe74e4b07d0f13466",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-5.png": "5808d708d31ddac01f1a05f52c59c8f19c580fab159e4443c400acb8a0f00e2c",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-6.png": "18eb312a620d49ba4289c91696b7a86163ea9319e2c6871e6712fd3b20633c33",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-7.png": "c627770be3d56963ade649ac289e683d0c1daa1cbc9eb0805b9853316ec113e3",
+    "PlayerAnim/SolidStatePlayer/IceTransformWater/Gy-8.png": "bf361ee774ff37f337ff907a77e60c1c0c54ccc464fef423244bec33e01eb866",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-1.png": "f1af7e06666279219113dd9db4051bb2cb112f45ab354e763ba80bb975f7ebd0",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-2.png": "d526481060295344731bf810d74e155055c63a6777826a8e81135d5e9c52a4b8",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-3.png": "5fc934dfa6a7be7ab99b0fe0c483dde7f58e1bda5e2bcb2cd64deaf2d9ccf137",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-4.png": "97cccb121e10795380e11f7f38bc3d1d9a550c81bd984ea87c30727fb94a6194",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-5.png": "68990c60ba5d6c7d276ff8e213852dd041052cea1a8df60e218bd662b4f1ad7e",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-6.png": "1e9a5b419936529645b7e9397fbc5a15c03ba32276c7a7b5fc4f020aea0de45a",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-7.png": "2d8d8d53384f5cecb4a9ef0ffed9e1be2fe962b3a2ba416e42c50c21b25bd182",
+    "PlayerAnim/SolidStatePlayer/IceTransformGas/Gq-8.png": "6dac9a91e8c21bc8758f334d78624822764aee30487eb58ddd40ae5a3fe07a52",
+    "PlayerAnim/GasStatePlayer/GasIdle/气态待机.png": "b499e78b190877ee3833d880c1bcb6ab433a90e2299762e3ca10c9566a86d451",
+    "PlayerAnim/GasStatePlayer/GasMove/气态行走.png": "0a05b1a51de7cb3f3ef41fa84d66b480f6b2abc708ddb9b571b46b02c8458401",
+    "PlayerAnim/GasStatePlayer/GasFly/气态上升.png": "867510e7f60e9bd0ff3611b88c6e86d2faf0226755e705b7f9b2cbc5f82ad353",
+    "PlayerAnim/GasStatePlayer/GasFly/气态下降.png": "58ef06a41a3a98428d8ef4e3da59c33af7ca31c09d627d7803a98d1eb82f721f",
+    "PlayerAnim/GasStatePlayer/GasAttack/气态攻击.png": "44fa84e7f20c5b3b87594287b47ecf168ae56dc50a662d2c144abd7a4806a751",
+    "PlayerAnim/GasStatePlayer/GasBeated/气态受击.png": "1ef38f6c6006b6c94d0f15e5526036df18b572b3226b90f4aeac8a7756b04300",
+    "PlayerAnim/GasStatePlayer/GasTransformLiquid/气变液.png": "44417c41597751c0a0639061fb9a985bd0f6fcb47cf88d4efbae89e2fcb641ee",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-1.png": "1628babd17e30b84bc0ab4cb67252ae595110f0f13d3be090d7ef84ab37cee78",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-2.png": "98df9245a7c9bdd86435055b28742e0c134d2038148bed61fb4d3c28234d0cb5",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-3.png": "92866e68467895bd26a179c46a1b77bdc42cae09e473bc07cc273f630dc7b558",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-4.png": "c8b6dd61d8b55d24257dd8f0f16087507f2223c34e745491679da22478c047a3",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-5.png": "d2eed230ce6389e3bcb0133c7d20ae102f1d2b952957d9d9c9bb321e78d406c1",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-6.png": "e044e1e91b8869ce69570cbcaa76efac86fa7679315e10048edd47fba3053900",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-7.png": "35f28a0985ab3787def83ed73790b45bb989e0a6b7deb00011a13cac3aa2b2e6",
+    "PlayerAnim/WaterAndFly/合成_1_00001_(9)-8.png": "9406c3172677e1fa9e32c89c957890ceaa6d62a2ad01c99de753aae1810b8cbb",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-1.png": "1021a7e796f563b36c6ce4e3e8b32040fe051ef7bc862b01bc7c974210b6c34f",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-2.png": "12feb86ae853c923b9ad6d33c52344e1da574956c2c54b2c38aa7561ea1ea7a2",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-3.png": "2d6b299328b16d2aedf994d1c255acdf9f900c5744e34d83e9f78e30844430ea",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-4.png": "7fbcdd56c180e3a9f1312592835352aefa287435513699c3cd22703667171143",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-5.png": "88dc9f79ea528ca292edd5792cd229ce1d8bae0e6906a6e3ce9bbfe3fc469c09",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-6.png": "42a90ff1ef762a79ab2d41d903c839235d4ca0cc7e72d7988db8005f18366867",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-7.png": "87aee6fd3fcd116bed02b8fd22858e4ded23ca567d04df39488ce2f23e494bde",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-8.png": "929cb3c331e3425d0e26820897a9e09c2b6a8b2892992f2763d9fa5677d3d668",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-9.png": "97a8e292eddc41fbd9069bd1e242df7de932cdc58e3f841c953bb379df1006df",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-10.png": "f72faa37e822fc40727453dae5555f7e48de5c7f485ff386fb2260cfedf2af47",
+    "PlayerAnim/WaterAndLanternFish/Transform/合成_1_1_00001_(1)-11.png": "8a61cb64d834ca852806895c3438c19d905e83bfd724181a505a15b7b9e634cd",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-1.png": "5f4e9b870c4121127f72877f9922161ec86362880724fcef3bcff34817ca6dc3",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-2.png": "f64798b24afcf8a8aa7f71d6f49e7cadd10ab7f016e32b9dacc79cf8c7b591a8",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-3.png": "5c6ddfcdc0f5a99b6ebee49869f977d8a24bf5d3fb2d39df66c53746d09076e4",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-4.png": "9b839962e4614f287dc277dbfd36d4ee22fca30312046228b60c11a95ca60392",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-5.png": "cd889a631f30586a0a427de78cf9e5fe01fa1cdf27adbdb0636e0a4f009665e9",
+    "PlayerAnim/WaterAndLanternFish/disappear/合成_1_1_00079_(1)-6.png": "234219973c7e212c9bb5ad3f8b25d524063923be28df14580155976f6b946bf7"
+  },
+  "originalBytes": 94146222,
+  "runtimeBytes": 8577862
+}

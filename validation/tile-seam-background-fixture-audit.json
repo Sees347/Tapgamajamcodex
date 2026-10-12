@@ -1,0 +1,82 @@
+{
+  "baseline_assertions": {
+    "total": 43,
+    "passed": 31,
+    "failed": 12
+  },
+  "isolated_assertions": {
+    "total": 43,
+    "passed": 43,
+    "failed": 0
+  },
+  "runtime_result": "FAIL",
+  "test_result": "PASSED",
+  "frames_completed": 200,
+  "summary": {
+    "lua_errors": 0,
+    "resource_errors": 0,
+    "engine_errors": 12,
+    "total_errors": 12
+  },
+  "engine_error_breakdown": {
+    "texture3DLod_shader_compile": 9,
+    "frame_time_spikes": [
+      "Frame time spike: 613.284ms (threshold: 500ms)",
+      "Frame time spike: 785.629ms (threshold: 500ms)",
+      "Frame time spike: 1192.83ms (threshold: 500ms)"
+    ]
+  },
+  "missing_resources": [],
+  "missing_engine_resources": [],
+  "cleanup_log": [
+    "[2026-10-12 16_47_26_502][193][Script] [编辑试玩] 已恢复正式游戏进度"
+  ],
+  "actual_save_logs": [],
+  "fixture_only_two_line_delta": true,
+  "fixture": {
+    "shared_default": {
+      "cols": 300,
+      "rows": 200,
+      "backgrounds": 4
+    },
+    "isolated_initial": {
+      "cols": 30,
+      "rows": 12,
+      "tile": 1,
+      "originX": 0,
+      "originY": 12,
+      "spawn": {
+        "x": 15,
+        "y": 5
+      },
+      "camera": {
+        "x": 15,
+        "y": 6
+      },
+      "backgrounds": 0,
+      "collision_cells": 0,
+      "ground_rows": 1
+    },
+    "delta": [
+      "assert(ME.loadSource(saved))",
+      "ME.centerCamera()"
+    ]
+  },
+  "assets_unchanged": true,
+  "original_test_unchanged": true,
+  "map_backgrounds_unchanged": true,
+  "user_saves_unchanged": true,
+  "concurrent_change_note": "terrain_tiles.lua changed outside this validation work at 2026-10-12 16:45:37 +0800, before Runtime launch at 16:47:16; not edited or reverted by this task.",
+  "production_integrity": {
+    "files_checked": 1234,
+    "changed": [
+      {
+        "path": "/workspace/scripts/core/terrain_tiles.lua",
+        "sha256_changed": true,
+        "mtime_changed": true
+      }
+    ],
+    "added": [],
+    "unchanged": false
+  }
+}

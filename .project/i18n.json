@@ -1,0 +1,82 @@
+{
+  "$schema": "../schemas/i18n.schema.json",
+
+  "enabled": false,
+
+  "source_lang": "zh_CN",
+  "target_langs": ["en"],
+
+  "extract_rules": [
+    {
+      "name": "chinese_double_quote",
+      "pattern": "\"((?:[^\"\\\\]|\\\\.)*[\\u4e00-\\u9fff](?:[^\"\\\\]|\\\\.)*)\"",
+      "group": 1,
+      "file_exts": [".lua", ".json"]
+    },
+    {
+      "name": "chinese_single_quote",
+      "pattern": "'((?:[^'\\\\]|\\\\.)*[\\u4e00-\\u9fff](?:[^'\\\\]|\\\\.)*)'",
+      "group": 1,
+      "file_exts": [".lua"]
+    },
+    {
+      "name": "xml_text_node",
+      "pattern": ">([^<]*[\\u4e00-\\u9fff][^<]*)<",
+      "group": 1,
+      "file_exts": [".xml"]
+    },
+    {
+      "name": "xml_attr_value",
+      "pattern": "=\"([^\"]*[\\u4e00-\\u9fff][^\"]*)\"",
+      "group": 1,
+      "file_exts": [".xml"]
+    }
+  ],
+
+  "function_excludes": [
+    "GetResource",
+    "GetComponent", "CreateComponent", "GetOrCreateComponent",
+    "GetChild", "CreateChild",
+    "SetName",
+    "AddTag", "HasTag", "RemoveTag",
+    "SetVar", "GetVar",
+    "SendEvent", "SubscribeToEvent", "UnsubscribeFromEvent",
+    "SendRemoteEvent", "RegisterRemoteEvent",
+    "SetAttribute", "GetAttribute", "HasAttribute",
+    "CreateScriptObject",
+    "print", "error",
+    "log:Write", "log:WriteRaw",
+    "_raw"
+  ],
+
+  "context_excludes": [
+    { "name": "require", "prefix_pattern": "require\\s*\\(?\\s*", "file_exts": [".lua"] }
+  ],
+
+  "content_excludes": [
+    { "name": "url",       "pattern": "^https?://" },
+    { "name": "project_path", "pattern": "^(?:[Aa]ssets|[Ss]cripts)/.*\\.[A-Za-z][A-Za-z0-9]*$" },
+    { "name": "file_ext",  "pattern": "^(?!.*(?:[　-〿＀-￯]|\\\\[nrt]|\\s)).*\\.(meta|lua|xml|png|hlsl|glsl|ani|jpg|jpeg|mdl|dds|json|txt|blendspace|wav|ttf|otf|fsm|tmx|sh|scml|tga|sdf|pex|ogg|mp3|mp4|ktx|effect|prefab|lodgroup|material|fbx|cube)$" },
+    { "name": "log_tag",   "pattern": "^\\[[A-Za-z0-9_]+\\]" },
+    { "name": "rel_path",  "pattern": "^\\.{1,2}/" },
+    { "name": "abs_path",  "pattern": "^[A-Za-z]:[/\\\\]" },
+    { "name": "dir_sep",   "pattern": "^(?=.*(?<!\\\\)[A-Za-z])(?!.*(?:[　-〿＀-￯]|\\\\[nrt]|\\s)).*/[^/]+/" },
+    { "name": "path_ext",  "pattern": "^(?!.*(?:[　-〿＀-￯]|\\\\[nrt]|\\s)).*/.*\\.[a-zA-Z][a-zA-Z0-9]*$" }
+  ],
+
+  "file_exts": [".lua", ".json", ".xml"],
+  "ignore_files": [],
+
+  "code": {
+    "concat_to_format": true,
+    "ignore_comments": {
+      ".lua": "-- i18n-ignore"
+    }
+  },
+
+  "untranslated": {
+    "fallback": "source"
+  },
+
+  "translations_dir": "../i18n"
+}

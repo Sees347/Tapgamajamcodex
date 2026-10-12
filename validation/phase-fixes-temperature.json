@@ -1,0 +1,95 @@
+{
+    "version": 2,
+    "script": "main.lua",
+    "result": "FAIL",
+    "duration_ms": 4021,
+    "frames_completed": 180,
+    "phases": {
+        "load": {
+            "result": "PASS",
+            "errors": []
+        },
+        "init": {
+            "result": "PASS",
+            "errors": []
+        },
+        "run": {
+            "result": "PASS",
+            "errors": []
+        },
+        "scene": {
+            "result": "PASS",
+            "errors": [],
+            "node_count": 25,
+            "component_count": 51,
+            "scene_exists": true
+        }
+    },
+    "state_snapshots": [
+        {
+            "frame": 1,
+            "phase": "init",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 1006.5170288085938
+        },
+        {
+            "frame": 10,
+            "phase": "run",
+            "nodes": 2,
+            "components": 4,
+            "hash": 886691492,
+            "frame_time_ms": 16.611000061035158
+        },
+        {
+            "frame": 90,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2636351201,
+            "frame_time_ms": 16.613000869750978
+        },
+        {
+            "frame": 180,
+            "phase": "run",
+            "nodes": 21,
+            "components": 42,
+            "hash": 2636351201,
+            "frame_time_ms": 16.618000030517579
+        }
+    ],
+    "scene_stalled": false,
+    "max_frame_time_ms": 33.1510009765625,
+    "update_defined": false,
+    "component_census": {
+        "Octree": 1,
+        "DebugRenderer": 1,
+        "PhysicsWorld2D": 1,
+        "Camera": 1,
+        "RigidBody2D": 23,
+        "CollisionBox2D": 22,
+        "CollisionCircle2D": 2
+    },
+    "test_result": "FAILED",
+    "test_assertions": {
+        "total": 130,
+        "passed": 125,
+        "failed": 5
+    },
+    "test_issues": [
+        "基础水弹发射事件",
+        "射水鱼水球发射事件",
+        "冰锥不用水弹声",
+        "闪电不用水弹声",
+        "实际吸水产生补水音效事件"
+    ],
+    "missing_resources": [],
+    "missing_engine_resources": [],
+    "summary": {
+        "lua_errors": 0,
+        "resource_errors": 0,
+        "engine_errors": 0,
+        "total_errors": 0
+    }
+}

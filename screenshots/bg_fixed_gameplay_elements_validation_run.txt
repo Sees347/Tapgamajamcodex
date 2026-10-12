@@ -1,0 +1,160 @@
+[2026-10-11 20_01_22_656][1] ERROR: Failed to compile vertex shader UI(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR VERTEXCOLOR):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_22_656][1] ERROR: Failed to compile pixel shader UI(DIFFMAP GAMMA_IN_SHADERING MIXCOLOR OPACITY VERTEXCOLOR):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_22_656][1] ERROR: Failed to compile vertex shader UI(DIFFMAP):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_22_656][1] ERROR: Failed to compile pixel shader UI(DIFFMAP OPACITY):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_260][3] ERROR: Failed to compile vertex shader NanoVGFill():
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_260][3] ERROR: Failed to compile pixel shader NanoVGFill():
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_22_184][0] INFO: DownloadManager initialized
+[2026-10-11 20_01_22_185][0] INFO: a couple of Subsystems registered finish.
+[2026-10-11 20_01_22_186][0] INFO: Engine construct finish.
+[2026-10-11 20_01_22_617][0] WARNING: Graphics::SetMode called with zero dimensions: 0x0 (will maximize window)
+[2026-10-11 20_01_22_640][0] WARNING: Directory[/workspace/.cli/AgentProject] not exists.
+[2026-10-11 20_01_22_640][0] WARNING: Shader cache package not found: shadercache_glsl.pak
+[2026-10-11 20_01_22_673][3] WARNING: RuntimeRetargeterCache: Cannot load mapping table: uuid://F4ItQUiV0gmvAelLXpk5yrTs
+[2026-10-11 20_01_22_673][3][Script] IsNetworkMode:    false
+[2026-10-11 20_01_22_684][3][Script] [InputAdaptor] Loading input event adaptor...
+[2026-10-11 20_01_22_684][3][Script] [InputAdaptor] Hooked SubscribeToEvent for event mapping.
+[2026-10-11 20_01_22_684][3][Script] [InputAdaptor] Platform: Linux, isTouchPlatform: false
+[2026-10-11 20_01_22_684][3][Script] [InputAdaptor] Hooked Input methods for touch emulation fallback.
+[2026-10-11 20_01_22_685][3][Script] Check Transition.lua SimpleGrid.lua
+[2026-10-11 20_01_22_961][3] WARNING: Forcing left alignment because parent element has horizontal layout
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_electric.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_ice.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_ice_hit.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_lightning.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/bullet_water.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/enemy_hit.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_anglerfish.png', skipping
+[2026-10-11 20_01_22_961][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_archerfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_barnacle.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_eel.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_flyfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_frog.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_ray.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/fish_swordfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_attack.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_down.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_hurt.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_idle.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_move.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_to_liquid.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_turn.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/gas_up.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_anglerfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_anglerfish_off.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_flyfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_idle.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_jump.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_move.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_scald.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_to_gas.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_to_solid.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/liquid_turn.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_2.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_3.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/slash_swordfish_003_4.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_electric.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_idle.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_jump.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_move.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_scald.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_to_gas.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_to_liquid.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: cannot resolve 'image/runtime/solid_turn.png', skipping
+[2026-10-11 20_01_22_962][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_23_965][3][Script] [Art] 运行图集加载完成: 44
+[2026-10-11 20_01_23_983][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_walls.png', skipping
+[2026-10-11 20_01_23_983][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_24_066][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_walls.png，1536×1024
+[2026-10-11 20_01_24_066][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_platforms.png', skipping
+[2026-10-11 20_01_24_066][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_24_074][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_platforms.png，1280×256
+[2026-10-11 20_01_24_074][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_pipes.png', skipping
+[2026-10-11 20_01_24_074][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_24_108][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_pipes.png，1024×1024
+[2026-10-11 20_01_24_108][3] WARNING: DownloadManager: cannot resolve 'image/地图/tiles/industrial_panels.png', skipping
+[2026-10-11 20_01_24_108][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_24_131][3][Script] [瓦片集] 已读取真实图集：image/地图/tiles/industrial_panels.png，768×512
+[2026-10-11 20_01_24_132][3][Script] [瓦片集] 初始化完成；真实图片未上传时可使用基础测试瓦片
+[2026-10-11 20_01_24_260][3][Script] [地图背景] 首载真实整图：image/地图/backgrounds/industrial_backdrop.jpg，4096×1339（原图 6443×2106）
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/absorb.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: Dow[2026-10-11 20_01_24_388][3] ERROR: Failed to compile vertex shader BloomHDR(BRIGHT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT2 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT4 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT8 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT16 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(BRIGHT32 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile vertex shader BloomHDR(COMBINE32):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE32 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile vertex shader BloomHDR(COMBINE16):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE16 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile vertex shader BloomHDR(COMBINE8):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE8 TONEMAP_LUT):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_388][3] ERROR: Failed to compile vertex shader BloomHDR(COMBINE2):
+shader compile skipped (graphics headless)
+[2026-10-11 20_01_24_389][3] ERROR: Failed to compile pixel shader BloomHDR(COMBINE2 GAMMA_IN_SHADERING TONEMAP_LUT):
+shader compile skipped (graphics headless)
+nloadManager: cannot resolve 'audio/runtime/bullet_hit.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/click.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/enemy_hit.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/game.ogg', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/landing.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/lightning.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/menu.ogg', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/robot_laser.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/shoot.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/slash.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/spring.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/runtime/water_shot.wav', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/sfx/crate_break.mp3', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: cannot resolve 'audio/sfx/dash.mp3', skipping
+[2026-10-11 20_01_24_272][3] WARNING: DownloadManager: no resources resolved for batch download
+[2026-10-11 20_01_24_326][3][Script] [Audio] 9 份上传音频已就绪
+[2026-10-11 20_01_24_326][3][Script] [Audio] BGM: menu
+[2026-10-11 20_01_24_326][3][Script] [VirtualControls] Initialized: design=1920x1080, screen=2040x1080, scale=1.000, offset=(60,0), mobile=false
+[2026-10-11 20_01_24_327][3][Script] [GameHUD] Initialized
+[2026-10-11 20_01_24_333][3][Script] === 《涌泉》启动完成 ===
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __gameplay_validation__：3 行 × 11 列，合并碰撞 1 块，机关 5，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __gameplay_validation__：3 行 × 11 列，合并碰撞 1 块，机关 5，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __gameplay_validation__：3 行 × 11 列，合并碰撞 1 块，机关 5，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __gameplay_validation__：3 行 × 11 列，合并碰撞 1 块，机关 5，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __gameplay_validation__：3 行 × 11 列，合并碰撞 1 块，机关 5，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Level] 加载完成: 未命名地图 (__gameplay_validation__)
+[2026-10-11 20_01_24_542][13][Script] [Player] 创建于    0.5    2.5
+[2026-10-11 20_01_24_542][13][Script] [Tilemap] 解析 __manual__：1 行 × 1 列，合并碰撞 0 块，机关 1，敌人 0，物品 0
+[2026-10-11 20_01_24_542][13][Script] [Level] 加载完成: 未命名地图 (__manual__)
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: liquid -> solid
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: solid -> liquid
+[2026-10-11 20_01_24_542][13][Script] [泉眼] 存档于 spring
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: solid -> liquid
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: liquid -> gas
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: liquid -> gas
+[2026-10-11 20_01_24_542][13][Script] [Player] 形态切换: gas -> liquid
+[2026-10-11 20_01_24_543][13][Script] [Player] 形态切换: solid -> liquid
+[2026-10-11 20_01_24_543][13][Script] [泉眼] 存档于 spring_check
+[2026-10-11 20_01_24_543][13][Script] [Player] 形态切换: liquid -> gas
+[2026-10-11 20_01_24_543][13][Script] [Player] 水量归零，等待泉眼复活
+[2026-10-11 20_01_24_543][13][Script] [Tilemap] 解析 __pickups__：1 行 × 28 列，合并碰撞 0 块，机关 0，敌人 8，物品 16
+[2026-10-11 20_01_24_543][13][Script] [Level] 加载完成: 未命名地图 (__pickups__)
+[2026-10-11 20_01_24_544][13][Script] [Tilemap] 解析 __seamless__：1 行 × 2 列，合并碰撞 0 块，机关 0，敌人 0，物品 0
+[2026-10-11 20_01_28_377][243]INFO__VALIDATE_TEST__:PASSED|89:89:0
+[2026-10-11 20_01_28_377][243]INFO__VALIDATE_UPDATE__:false
