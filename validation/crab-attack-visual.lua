@@ -1,4 +1,4 @@
--- 裂钳蟹攻击中帧世界内渲染（左螯组 / 右螯组各一只，确认无双侧同闪）。
+-- 裂钳蟹近战 / 远程中帧世界内渲染，确认两种动作分别取正确图集。
 local GS = require "core/state"
 local P = require "core/player"
 local E = require "core/enemies"
@@ -21,9 +21,9 @@ V.atFrame(20, function()
     P.body.linearVelocity = Vector2(0, 0)
     P.node.position2D = Vector2(1, 1.2)
     GS.mode = "paused"
-    -- 冻结在攻击中段：a 用左螯组，b 用右螯组
+    -- 冻结在攻击中段：a 完整近战，b 右螯远程。
     a.facing = 1; a.hitSquash = 0; a.pendingAttack = "melee"
-    a.clawSide = 1; a.atkAnimTimer = E.attackAnimTime(a.def) * 0.5
-    b.facing = 1; b.hitSquash = 0; b.pendingAttack = "melee"
-    b.clawSide = -1; b.atkAnimTimer = E.attackAnimTime(b.def) * 0.5
+    a.clawSide = 1; a.atkAnimTimer = E.attackAnimTime(a.def, "melee") * 0.5
+    b.facing = 1; b.hitSquash = 0; b.pendingAttack = "ranged"
+    b.clawSide = -1; b.atkAnimTimer = E.attackAnimTime(b.def, "ranged") * 0.5
 end)

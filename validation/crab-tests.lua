@@ -29,11 +29,14 @@ V.atFrame(20, function()
         V.assert(clips[k] ~= nil, k .. " 配置存在")
         V.assert(cache:Exists(clips[k].path), k .. " 图集文件存在")
     end
-    V.assert(clips.enemy_crab_melee.count == 4 and clips.enemy_crab_ranged.count == 4,
-        "近战/远程各取 4 帧（单侧螯）")
+    V.assert(clips.enemy_crab_melee.count == 16 and clips.enemy_crab_ranged.count == 4,
+        "近战完整 16 帧，远程单侧螯 4 帧")
     V.assert(clips.enemy_crab_stone_fly.frameOffset == 1, "石子飞行取第 2-3 帧")
     V.assert(clips.enemy_crab_stone_hit.frameOffset == 3, "石子命中取第 4 帧")
-    V.assert(MON.crab.atkAnimTime == 0.28, "裂钳蟹攻击动画时长 0.28s")
+    V.assert(E.attackAnimTime(MON.crab, "melee") == 16 / clips.enemy_crab_melee.fps,
+        "近战动画计时覆盖完整 16 帧")
+    V.assert(E.attackAnimTime(MON.crab, "ranged") == 4 / clips.enemy_crab_ranged.fps,
+        "远程动画计时覆盖单侧 4 帧")
 
     -- 远距离应触发抛石，且弹幕带石子贴图与命中图
     local e = E.spawn(L.scene, "crab", 6, 1.2)

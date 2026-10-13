@@ -547,11 +547,11 @@ function Art.drawEnemy(vg, key, time, x, y, r, facing, frameOffset)
     if not clip then return false end
     local bounds = clip.bounds
     if not bounds then return false end
-    local bh = bounds[4] - bounds[2]
+    local bh = clip.sourceHeight or (bounds[4] - bounds[2])
     -- 底部对齐圆心下方 r，等比缩放：碰撞半径越大画得越大，且不因菌盖宽窄变形。
     local scale = (r * 2) / bh
-    local pivotX = (bounds[1] + bounds[3]) / 2
-    return draw(vg, key, time, x, y + r, scale, pivotX, bounds[4], facing, frameOffset)
+    local pivotX = clip.pivotX or (bounds[1] + bounds[3]) / 2
+    return draw(vg, key, time, x, y + r, scale, pivotX, clip.pivotY or bounds[4], facing, frameOffset)
 end
 
 --- 子弹/特效图集沿方向旋转，锚点与碰撞圆心对齐。

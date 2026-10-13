@@ -71,3 +71,6 @@ urhox-libs/
 # <<< TapTap Maker AI dev kit (local only) <<<
 yongquan_source_*.zip
 validation/background-runtime/
+
+# Separate GitHub checkout
+github-upload/

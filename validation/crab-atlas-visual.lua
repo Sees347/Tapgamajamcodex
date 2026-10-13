@@ -39,24 +39,25 @@ SubscribeToEvent("NanoVGRender", function()
         local ok = Art.drawEnemy(vg, "enemy_crab_move", (i - 1) / clips.enemy_crab_move.fps, 100 + i * 120, 150, 30, 1)
         if doAssert then V.assert(ok, "移动第 " .. i .. " 帧") end
     end
-    -- 近战左/右螯各 4 帧
-    for i = 1, 4 do
+    -- 新近战完整 16 帧，分两行展示。
+    for i = 1, 16 do
         local t = (i - 1) / clips.enemy_crab_melee.fps
-        local okA = Art.drawEnemy(vg, "enemy_crab_melee", t, 100 + i * 120, 330, 30, 1, 0)
-        local okB = Art.drawEnemy(vg, "enemy_crab_melee", t, 100 + i * 120, 470, 30, 1, 4)
-        if doAssert then V.assert(okA and okB, "近战左右螯第 " .. i .. " 帧") end
+        local x = 120 + ((i - 1) % 8) * 120
+        local y = 280 + math.floor((i - 1) / 8) * 130
+        local ok = Art.drawEnemy(vg, "enemy_crab_melee", t, x, y, 30, 1, 0)
+        if doAssert then V.assert(ok, "近战第 " .. i .. " 帧") end
     end
     -- 远程左/右螯 + 石子
     for i = 1, 4 do
         local t = (i - 1) / clips.enemy_crab_ranged.fps
-        local ok = Art.drawEnemy(vg, "enemy_crab_ranged", t, 620 + i * 120, 330, 30, 1, 0)
+        local ok = Art.drawEnemy(vg, "enemy_crab_ranged", t, 100 + i * 120, 550, 30, 1, 0)
         if doAssert then V.assert(ok, "远程左螯第 " .. i .. " 帧") end
     end
     for i = 1, 2 do
-        Art.drawProjectile(vg, "enemy_crab_stone_fly", (i - 1) / clips.enemy_crab_stone_fly.fps, 620 + i * 130, 470, 40, 0)
+        Art.drawProjectile(vg, "enemy_crab_stone_fly", (i - 1) / clips.enemy_crab_stone_fly.fps, 620 + i * 130, 550, 40, 0)
     end
-    Art.drawProjectile(vg, "enemy_crab_stone_hit", 0, 1000, 470, 40, 0)
-    if doAssert then V.assert(Art.drawProjectile(vg, "enemy_crab_stone_hit", 0, 1000, 470, 40, 0), "石子碎裂帧") end
+    Art.drawProjectile(vg, "enemy_crab_stone_hit", 0, 1000, 550, 40, 0)
+    if doAssert then V.assert(Art.drawProjectile(vg, "enemy_crab_stone_hit", 0, 1000, 550, 40, 0), "石子碎裂帧") end
     checked = true
     nvgEndFrame(vg)
 end)

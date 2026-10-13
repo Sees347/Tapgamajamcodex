@@ -12,6 +12,7 @@ local MON = require "data/monsters"
 local Bullets = require "core/bullets"
 local P = require "core/player"
 local A = require "core/abilities"
+local ArtClips = require "data/art"
 
 ---@class Enemies
 local E = {}
@@ -55,8 +56,13 @@ function E.setTerrainCheck(fn) TERRAIN_CHECK = fn end
 
 --- 攻击动画时长：怪物各自配置，缺省用全局值。
 ---@param def table
+---@param attackKind string|nil 裂钳蟹按当前动作的完整帧数计时
 ---@return number
-function E.attackAnimTime(def)
+function E.attackAnimTime(def, attackKind)
+    if def and def.ai == "crab" and attackKind then
+        local clip = ArtClips["enemy_crab_" .. attackKind]
+        if clip then return clip.count / clip.fps end
+    end
     return (def and def.atkAnimTime) or Config.HIT_FX.attackAnimTime
 end
 
@@ -429,30 +435,43 @@ local function aiCrab(e, dt, pp)
     local see, d = canSee(e, pp, e.def.detectRange)
     local ep = e.node.position2D
 
+    -- 从预警到完整动画结束锁定攻击类型、朝向与螯，不进入另一攻击分支。
+    if e.atkAnimTimer > 0 then
+        e.state = "attack"
+        setVel(e, 0, e.body and e.body.linearVelocity.y or 0)
+        return
+    end
+
+    if e.warnTimer > 0 then
+        e.state = "warn"
+        setVel(e, 0, e.body and e.body.linearVelocity.y or 0)
+        e.warnTimer = math.max(0, e.warnTimer - dt)
+        if e.warnTimer == 0 then
+            if not pp or P.dead then
+                e.pendingAttack = nil
+                e.state = "idle"
+                return
+            end
+            e.atkAnimTimer = E.attackAnimTime(e.def, e.pendingAttack)
+            e.state = "attack"
+            e.stateTimer = e.atkAnimTimer
+            if e.pendingAttack == "melee" then
+                GS.emit("enemyMelee", e, melee.dmg, melee.range + e.radius + 0.5)
+                e.atkTimer = melee.freq
+            elseif e.pendingAttack == "ranged" then
+                local dx, dy = pp.x - ep.x, pp.y - ep.y
+                local len = math.max(0.001, math.sqrt(dx * dx + dy * dy))
+                Bullets.spawnEnemyBullet(ep.x, ep.y + 0.4, dx / len, dy / len + 0.45, 8,
+                    ranged.dmg, e.def.accent, 12.0, nil, "enemy_crab_stone_fly", "enemy_crab_stone_hit")
+                e.atkTimer = ranged.freq
+            end
+        end
+        return
+    end
+    e.pendingAttack = nil
+
     if see then
         e.facing = (pp.x > ep.x) and 1 or -1
-        if e.warnTimer > 0 then
-            -- 预警中（抬起螯）
-            e.warnTimer = e.warnTimer - dt
-            if e.warnTimer <= 0 then
-                -- 砸击 / 抛石共用一套攻击动画时长；左右螯按 clawSide 取不同子区间。
-                e.atkAnimTimer = E.attackAnimTime(e.def)
-                if e.pendingAttack == "melee" then
-                    e.state = "attack"
-                    e.stateTimer = 0.25
-                    GS.emit("enemyMelee", e, melee.dmg, melee.range + e.radius + 0.5)
-                else
-                    e.state = "attack"
-                    e.stateTimer = 0.25
-                    local dx, dy = pp.x - ep.x, pp.y - ep.y
-                    local len = math.sqrt(dx * dx + dy * dy)
-                    Bullets.spawnEnemyBullet(ep.x, ep.y + 0.4, dx / len, dy / len + 0.45, 8,
-                        ranged.dmg, e.def.accent, 12.0, nil, "enemy_crab_stone_fly", "enemy_crab_stone_hit")
-                end
-                e.atkTimer = melee.freq
-            end
-            return
-        end
         if d <= melee.range + e.radius + 0.6 then
             e.state = "chase"
             moveTo(e, pp.x, e.def.speed * 0.8, dt)
@@ -463,6 +482,7 @@ local function aiCrab(e, dt, pp)
                 e.pendingAttack = "melee"
                 e.warnTimer = 0.45
                 e.state = "warn"
+                setVel(e, 0, e.body and e.body.linearVelocity.y or 0)
             end
         else
             e.state = "chase"
@@ -473,6 +493,7 @@ local function aiCrab(e, dt, pp)
                 e.pendingAttack = "ranged"
                 e.warnTimer = 0.4
                 e.state = "warn"
+                setVel(e, 0, e.body and e.body.linearVelocity.y or 0)
             end
         end
     else

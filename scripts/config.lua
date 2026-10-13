@@ -5,27 +5,27 @@
 local Config = {}
 
 -- 物理/世界
-Config.GRAVITY = 20.0            -- 重力加速度 (m/s^2)
-Config.VIEW_H = 16.0             -- 相机视野高度 (米)（拉远相机：拍摄更大区域，角色/怪物在屏幕上更小）
+Config.GRAVITY = 22              -- 重力加速度 (m/s^2)
+Config.VIEW_H = 18.5             -- 相机视野高度 (米)（拉远相机：拍摄更大区域，角色/怪物在屏幕上更小）
 Config.DEATH_Y = -5.0            -- 坠落死亡线 (相对关卡 y=0, 具体见关卡数据 deathY)
 
 -- 玩家形态参数（三形态手感）
 Config.FORMS = {
     liquid = {
         name = "液态", radius = 0.42, density = 1.0,
-        speed = 5.0, accelGround = 14.0, accelAir = 10.0, decel = 16.0,
-        jumpVel = 9.5, gravUp = 1.0, gravDown = 1.15, damping = 0.0,
+        speed = 10, accelGround = 14.0, accelAir = 10.0, decel = 16.0,
+        jumpVel = 12.4, gravUp = 1.0, gravDown = 1.15, damping = 0.0,
         color = { 80, 170, 255 },
     },
     gas = {
         name = "气态", radius = 0.5, density = 0.25,
-        speed = 4.6, accelGround = 8.0, accelAir = 7.0, decel = 4.0,
-        jumpVel = 11.0, gravUp = 0.5, gravDown = 0.75, damping = 0.9,
+        speed = 8, accelGround = 8.0, accelAir = 7.0, decel = 4.0,
+        jumpVel = 13.3203, gravUp = 0.5, gravDown = 0.75, damping = 0.9,
         color = { 225, 235, 245 },
     },
     solid = {
         name = "固态", radius = 0.4, density = 3.0,
-        speed = 7.5, accelGround = 3.2, accelAir = 2.5, decel = 0.9,  -- 打滑：低加/减速度
+        speed = 11.2, accelGround = 3.2, accelAir = 2.5, decel = 0.9,  -- 打滑：低加/减速度
         jumpVel = 8.5, gravUp = 1.25, gravDown = 1.4, damping = 0.0,
         color = { 150, 220, 255 },
     },
@@ -41,17 +41,17 @@ Config.PLAYER = {
     ramSpeed = 6.0,              -- 固态撞击最低速度
     ramDamage = 3,               -- 固态撞击伤害
     baseAtk = 2,                 -- 无装备基础弹幕伤害
-    baseAtkRange = 6.0,          -- 基础弹幕射程 (米)
-    baseAtkFreq = 0.4,           -- 基础弹幕频率 (秒/发)
-    baseBulletSpeed = 14.0,      -- 弹幕速度 (米/秒)
-    flyFlap = 12.5,              -- 飞鱼气态：空中每次点按空格的扇动上升速度 (米/秒)
+    baseAtkRange = 7,            -- 基础弹幕射程 (米)
+    baseAtkFreq = 0.35,          -- 基础弹幕频率 (秒/发)
+    baseBulletSpeed = 18.5,      -- 弹幕速度 (米/秒)
+    flyFlap = 14.5,              -- 飞鱼气态：空中每次点按空格的扇动上升速度 (米/秒)
     flyDamping = 0.975,          -- 飞鱼气态：未扇动时上升速度每帧衰减（越接近1越飘、飞得越远）
     -- 可变跳跃高度（经典 2D 平台手感）：按住跳跃键越久跳得越高。
     -- 松开时若仍在上升，把上升速度乘以该值。
-    -- 0.62 → 点按约跳满跳的 40~45%（经典平台跳跃手感）；调小则点按跳得更矮。
-    jumpCutMul = 0.62,
+    -- 调小则点按跳得更矮；实际高度取决于形态、重力和松手时机。
+    jumpCutMul = 0.38,
     -- 达到该上升时长后视为"满跳"，再按住也不会更高（防止无限飘）。
-    jumpHoldMaxTime = 0.32,
+    jumpHoldMaxTime = 0.5,
 }
 
 -- 青蛙液态钩爪：发射绳状水柱，命中地形后把玩家拉过去（泰拉瑞亚风格）。
@@ -88,13 +88,13 @@ Config.HIT_FX = {
 Config.FEEL = {
     -- 抖动幅度换算：实际像素 = 强度 × ppu × shakeScale。
     -- 调大这个值 → 所有抖动整体更明显（面板可实时调）。
-    shakeScale = 0.35,
+    shakeScale = 0.6,
     -- 可破坏箱破碎时的镜头抖动强度
     crateShake = 0.5,
     -- 击杀镜头抖动：tier -> { 强度, 时长(秒) }
     killShake = {
-        small = { 0.35, 0.12 },
-        elite = { 0.7, 0.25 },
+        small = { 1, 0.2 },
+        elite = { 1, 0.25 },
         boss  = { 1.6, 0.6 },
     },
 }
@@ -190,7 +190,7 @@ Config.ABILITIES = {
 -- ============================================================================
 Config.COMBO = {
     -- 气态 + 同时携带飞鱼与电鳗：空中横移速度加成（比例，仅空中生效）
-    gasFlyEelAirSpeed = 0.6,
+    gasFlyEelAirSpeed = 3,
 }
 
 -- ============================================================================
@@ -210,7 +210,7 @@ Config.BALANCE = {
     monsterHp = 1.0,             -- 全体怪物血量倍率
     monsterDmg = 1.0,            -- 全体怪物伤害倍率
     playerDmg = 1.0,             -- 玩家弹幕伤害倍率
-    bulletRange = 1.0,           -- 玩家弹幕射程倍率（作用于所有弹幕，含各鱼）
+    bulletRange = 1.8,           -- 玩家弹幕射程倍率（作用于所有弹幕，含各鱼）
     dropRate = 1.0,              -- 贝壳掉落数量倍率
 }
 

@@ -22,6 +22,7 @@
 ---@field rotation? number     原图方向转为朝右所需弧度
 ---@field staticFrame? integer 固定帧(1起)：不随时间播放。用于飞行中定格的子弹，
 ---                            视觉寿命=子弹寿命(由射程决定)，不会因动画播完而提前消失
+---@field frameOffset? integer 图集子序列起始偏移（从 0 起）
 ---@field singleImage? boolean 独立图片，整图采样并保留原始宽高比
 
 ---@type table<string, ArtClip>
@@ -56,10 +57,15 @@ local clips = {
     enemy_lightseeker_idle = { path = "image/runtime/enemy_lightseeker_idle.png", count = 8, fps = 8, loop = true, facing = 1, bounds = { 2, 12, 254, 244 } },
     enemy_lightseeker_move = { path = "image/runtime/enemy_lightseeker_move.png", count = 8, fps = 10, loop = true, facing = 1, bounds = { 8, 17, 247, 239 } },
     enemy_lightseeker_attack = { path = "image/runtime/enemy_lightseeker_attack.png", count = 8, fps = 13, loop = false, facing = 1, bounds = { 6, 15, 250, 241 } },
-    -- 裂钳蟹：三套均为 8 帧（4×2）。近战/远程的 8 帧 = 左螯 4 帧(offset 0) + 右螯 4 帧(offset 4)。
-    enemy_crab_move = { path = "image/runtime/enemy_crab_move.png", count = 8, fps = 8, loop = true, facing = 1, bounds = { 15, 45, 239, 211 } },
-    enemy_crab_melee = { path = "image/runtime/enemy_crab_melee.png", count = 4, fps = 14, loop = false, facing = 1, bounds = { 2, 8, 254, 252 } },
-    enemy_crab_ranged = { path = "image/runtime/enemy_crab_ranged.png", count = 4, fps = 14, loop = false, facing = 1, bounds = { 4, 2, 251, 258 } },
+    -- 飞蝇：4×2 八帧振翅，原图朝左，按移动朝向镜像。
+    enemy_fly = { path = "image/runtime/enemy_fly.png", count = 8, fps = 16, loop = true, facing = -1, bounds = { 1, 6, 251, 245 } },
+    -- 裂钳蟹：新版近战为完整 4×4 十六帧；远程仍是左右小螯各四帧。
+    -- 三套共用身体高度与眼睛横向锚点，真实像素底边落在碰撞圆底部。
+    -- 坐标已扣除采样时的 2px 留边，透明画布不参与贴地和体型计算。
+    enemy_crab_move = { path = "image/runtime/enemy_crab_move.png", count = 8, fps = 8, loop = true, facing = 1, bounds = { 35, 148, 217, 252 }, pivotX = 126, pivotY = 252, sourceHeight = 101.5 },
+    -- 近战原图向左挥钳；远程首组向左抛石，第二组向右（渲染时单独反转）。
+    enemy_crab_melee = { path = "image/runtime/enemy_crab_melee.png", count = 16, fps = 24, loop = false, facing = -1, bounds = { 0, 128, 232, 252 }, pivotX = 126, pivotY = 252, sourceHeight = 101.5 },
+    enemy_crab_ranged = { path = "image/runtime/enemy_crab_ranged.png", count = 4, fps = 14, loop = false, facing = -1, bounds = { 16, 127, 234, 252 }, pivotX = 126, pivotY = 252, sourceHeight = 101.5 },
     -- 石子（4 帧：大石 → 飞行×2 → 碎裂）。飞行取第 2-3 帧循环（frameOffset=1），
     -- 命中取第 4 帧碎裂（frameOffset=3）。同一张图集，按子区间取用。
     enemy_crab_stone_fly = { path = "image/runtime/enemy_crab_stone.png", count = 2, fps = 14, loop = true, facing = 1, frameOffset = 1, bounds = { 2, 35, 254, 221 } },

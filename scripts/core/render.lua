@@ -709,6 +709,7 @@ local function drawEnemyShape(vg, e, sx, sy, r)
     local t = e.animTime
 
     if def.ai == "dasher" then
+        if Art.drawEnemy(vg, "enemy_fly", t, sx, sy, r, e.facing) then return end
         -- 变异飞蝇：椭圆身体 + 摆动翅膀
         local wing = math.sin(t * 30) * 8
         nvgBeginPath(vg)
@@ -855,16 +856,18 @@ local function drawEnemyShape(vg, e, sx, sy, r)
         nvgFill(vg)
 
     elseif def.ai == "crab" then
-        -- 裂钳蟹：攻击/预警用攻击图集（按 clawSide 取左/右螯 4 帧），否则移动循环。
-        local crabAtkTime = E.attackAnimTime(def)
-        local crabOffset = (e.clawSide == -1) and 4 or 0
+        -- 近战完整播放十六帧；仅远程按 clawSide 选择左右小螯四帧。
+        local crabAtkTime = E.attackAnimTime(def, e.pendingAttack)
+        local crabOffset = (e.pendingAttack == "ranged" and e.clawSide == -1) and 4 or 0
+        -- 第二组远程原图向右，首组与近战向左；只调整绘图朝向，保留实际攻击朝向。
+        local crabDrawFacing = crabOffset == 4 and -e.facing or e.facing
         local crabDrew
         local crabKey = (e.pendingAttack == "ranged") and "enemy_crab_ranged" or "enemy_crab_melee"
         if e.atkAnimTimer > 0 then
-            crabDrew = Art.drawEnemy(vg, crabKey, crabAtkTime - e.atkAnimTimer, sx, sy, r, e.facing, crabOffset)
+            crabDrew = Art.drawEnemy(vg, crabKey, crabAtkTime - e.atkAnimTimer, sx, sy, r, crabDrawFacing, crabOffset)
         elseif e.warnTimer > 0 then
             -- 预警：定格在攻击动画首帧（抬起对应螯）
-            crabDrew = Art.drawEnemy(vg, crabKey, 0, sx, sy, r, e.facing, crabOffset)
+            crabDrew = Art.drawEnemy(vg, crabKey, 0, sx, sy, r, crabDrawFacing, crabOffset)
         else
             crabDrew = Art.drawEnemy(vg, "enemy_crab_move", t, sx, sy, r, e.facing)
         end
