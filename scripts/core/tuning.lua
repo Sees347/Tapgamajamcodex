@@ -322,7 +322,18 @@ function Tuning.deleteSave()
     Tuning.overrides = {}
 end
 
---- 导出为 Lua 文本（打印到控制台，供手动粘回 config.lua 固化进版本）
+--- 精简数字：整数不带小数，其余最多 4 位并去掉尾零。
+---@param v number
+---@return string
+local function fmtNum(v)
+    if v % 1 == 0 and math.abs(v) < 1e9 then return string.format("%d", v) end
+    local s = string.format("%.4f", v)
+    s = s:gsub("0+$", ""):gsub("%.$", "")
+    return s
+end
+
+--- 导出改动过的参数为可粘贴的 Lua 文本。
+--- 写的是 config 内部值（可直接覆盖对应字段）；派生参数在注释里附上面板显示值。
 ---@return string
 function Tuning.exportText()
     local lines = { "-- 《涌泉》调参导出（粘贴覆盖 config.lua 对应字段）" }
@@ -330,7 +341,11 @@ function Tuning.exportText()
         for _, p in ipairs(grp.items) do
             local v = Tuning.get(p.path)
             if v and Tuning.isModified(p.path) then
-                lines[#lines + 1] = string.format("Config.%s = %s   -- %s", p.path, tostring(v), p.label)
+                local comment = p.label
+                if p.toDisplay then
+                    comment = comment .. ("（面板显示 %s）"):format(fmtNum(p.toDisplay(v)))
+                end
+                lines[#lines + 1] = string.format("Config.%s = %s   -- %s", p.path, fmtNum(v), comment)
             end
         end
     end

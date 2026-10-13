@@ -26,6 +26,57 @@ local function actionBtn(text, onClick, variant, width)
     }
 end
 
+--- 复制到系统剪贴板并回读校验（与地图导出同约定）。
+--- SetUseSystemClipboard 单独容错：某些平台不支持也不该阻断复制。
+---@param text string
+---@return boolean
+local function copyToClipboard(text)
+    pcall(function() ui:SetUseSystemClipboard(true) end)
+    local ok, readBack = pcall(function()
+        ui:SetClipboardText(text)
+        return ui:GetClipboardText()
+    end)
+    return ok and readBack == text
+end
+
+--- 导出结果弹窗：逐行显示可读文本，并提供一键复制。
+---@param text string
+---@param onBack fun()
+local function showExportModal(text, onBack)
+    local rows = {}
+    for line in (text .. "\n"):gmatch("([^\n]*)\n") do
+        rows[#rows + 1] = UI.Label {
+            text = line == "" and " " or line, fontSize = 12,
+            whiteSpace = "nowrap", fontColor = { 190, 215, 245, 240 },
+        }
+    end
+    HUD.showOverlay({
+        UI.Panel {
+            width = 640, maxWidth = "94%", maxHeight = "88%",
+            padding = 18, gap = 10,
+            backgroundColor = { 16, 21, 36, 245 },
+            borderRadius = 14, borderWidth = 1, borderColor = { 70, 90, 140, 150 },
+            children = {
+                UI.Label { text = "调参导出", fontSize = 18, fontColor = { 210, 235, 255, 255 } },
+                UI.Label { text = "复制下面内容，粘回 config.lua 对应字段即可固化。", fontSize = 11, fontColor = { 150, 170, 205, 220 } },
+                UI.ScrollView {
+                    width = "100%", flex = 1, flexShrink = 1,
+                    children = { UI.Panel { width = "100%", gap = 3, children = rows } },
+                },
+                UI.Panel {
+                    width = "100%", flexDirection = "row", justifyContent = "center", gap = 10,
+                    children = {
+                        actionBtn("复制全部", function()
+                            HUD.toast(copyToClipboard(text) and "已复制到剪贴板" or "复制失败，可手动选中上方文本", 3)
+                        end, "primary"),
+                        actionBtn("返回调参", function() onBack() end, "secondary"),
+                    },
+                },
+            },
+        },
+    })
+end
+
 --- 打开调参面板
 ---@param onClose fun()|nil 关闭后回调（通常回到暂停菜单）
 function TuningUI.show(onClose)
@@ -107,9 +158,9 @@ function TuningUI.show(onClose)
                             HUD.hideOverlay()
                             if onClose then onClose() end
                         end, "secondary"),
-                        actionBtn("导出到控制台", function()
-                            Tuning.exportText()
-                            HUD.toast("参数已导出到控制台（可粘回 config.lua）")
+                        actionBtn("导出参数", function()
+                            local text = Tuning.exportText()
+                            showExportModal(text, function() TuningUI.show(onClose) end)
                         end, "secondary"),
                         actionBtn("关闭", function()
                             HUD.hideOverlay()
